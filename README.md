@@ -1,4 +1,7 @@
 Steering Behaviours
+-------------------------
+
+![Flocking Screenshot](https://github.com/antarctica2015/SteeringBehaviours/blob/main/images/flocking.jpg)
 
 This is an older proof of concept demo that uses techniques and code provided in the book "Programming Game AI by Example" by Matt Buckland. 
 
