@@ -1,0 +1,2439 @@
+22:16:33: Creating resource group General
+22:16:34: Creating resource group Internal
+22:16:34: Creating resource group Autodetect
+22:16:34: Registering ResourceManager for type Material
+22:16:34: Registering ResourceManager for type Mesh
+22:16:34: Registering ResourceManager for type Skeleton
+22:16:34: MovableObjectFactory for type 'ParticleSystem' registered.
+22:16:34: Loading library OgrePlatform.dll
+22:16:34: OverlayElementFactory for type Panel registered.
+22:16:34: OverlayElementFactory for type BorderPanel registered.
+22:16:34: OverlayElementFactory for type TextArea registered.
+22:16:34: Registering ResourceManager for type Font
+22:16:34: ArchiveFactory for archive type FileSystem registered.
+22:16:35: ArchiveFactory for archive type Zip registered.
+22:16:35: DevIL version: Developer's Image Library (DevIL) 1.6.7 Nov  9 2005
+22:16:35: DevIL image formats: bmp dib cut dcx dds gif hdr ico cur jpg jpe jpeg lif mdl mng jng pcx pic pix png pbm pgm pnm ppm psd pdd psp pxr sgi bw rgb rgba tga vda icb vst tif tiff wal xpm raw 
+22:16:35: Registering ResourceManager for type HighLevelGpuProgram
+22:16:35: Registering ResourceManager for type Compositor
+22:16:35: MovableObjectFactory for type 'Entity' registered.
+22:16:35: MovableObjectFactory for type 'Light' registered.
+22:16:35: MovableObjectFactory for type 'BillboardSet' registered.
+22:16:35: MovableObjectFactory for type 'ManualObject' registered.
+22:16:35: MovableObjectFactory for type 'BillboardChain' registered.
+22:16:35: MovableObjectFactory for type 'RibbonTrail' registered.
+22:16:35: Loading library .\RenderSystem_Direct3D9
+22:16:36: D3D9 : Direct3D9 Rendering Subsystem created.
+22:16:38: D3D9: Driver Detection Starts
+22:16:38: D3D9: Driver Detection Ends
+22:16:39: Loading library .\RenderSystem_GL
+22:16:40: OpenGL Rendering Subsystem created.
+22:16:43: *-*-* OGRE Initialising
+22:16:43: *-*-* Version 1.2.4 (Dagon)
+22:16:43: Added resource location './' of type 'FileSystem' to resource group 'General'
+22:16:43: Added resource location './Media/GUI/' of type 'FileSystem' to resource group 'General'
+22:16:43: Added resource location './Media/GUI/schemes' of type 'FileSystem' to resource group 'General'
+22:16:43: Added resource location './Media/GUI/imagesets' of type 'FileSystem' to resource group 'General'
+22:16:43: Added resource location './Media/GUI/fonts' of type 'FileSystem' to resource group 'General'
+22:16:44: Added resource location './Media/fonts' of type 'FileSystem' to resource group 'General'
+22:16:44: Added resource location './Media/materials/scripts' of type 'FileSystem' to resource group 'General'
+22:16:44: Added resource location './Media/materials/textures' of type 'FileSystem' to resource group 'General'
+22:16:44: Added resource location './Media/models' of type 'FileSystem' to resource group 'General'
+22:16:44: Added resource location './Media/primitives' of type 'FileSystem' to resource group 'General'
+22:16:45: Added resource location './Media/packs/OgreCore.zip' of type 'Zip' to resource group 'General'
+22:16:45: Added resource location './Media/packs/cubemapsJS.zip' of type 'Zip' to resource group 'General'
+22:16:46: Added resource location './Media/packs/skybox.zip' of type 'Zip' to resource group 'General'
+22:16:47: D3D9 : RenderSystem Option: Allow NVPerfHUD = No
+22:16:47: D3D9 : RenderSystem Option: Anti aliasing = None
+22:16:47: D3D9 : RenderSystem Option: Floating-point mode = Consistent
+22:16:47: D3D9 : RenderSystem Option: Full Screen = No
+22:16:47: D3D9 : RenderSystem Option: Rendering Device = NVIDIA GeForce 6800 GT
+22:16:47: D3D9 : RenderSystem Option: VSync = No
+22:16:47: D3D9 : RenderSystem Option: Video Mode = 1024 x 768 @ 32-bit colour
+22:18:12: *-*-* OGRE Shutdown
+22:18:12: Unregistering ResourceManager for type Compositor
+22:18:12: Unregistering ResourceManager for type Font
+22:18:12: Unregistering ResourceManager for type Skeleton
+22:18:12: Unregistering ResourceManager for type Mesh
+22:18:12: Unregistering ResourceManager for type HighLevelGpuProgram
+22:18:12: *** Stopping Win32GL Subsystem ***
+22:18:12: Unloading library .\RenderSystem_GL
+22:18:12: D3D9 : Shutting down cleanly.
+22:18:12: D3D9 : Direct3D9 Rendering Subsystem destroyed.
+22:18:12: Unloading library .\RenderSystem_Direct3D9
+22:18:12: Unregistering ResourceManager for type Material
+22:18:12: Unloading library OgrePlatform.dll
+ndependent bit depths supported
+22:17:03: RenderSystem capabilities
+22:17:03: -------------------------
+22:17:03:  * Hardware generation of mipmaps: yes
+22:17:03:  * Texture blending: yes
+22:17:03:  * Anisotropic texture filtering: yes
+22:17:03:  * Dot product texture operation: yes
+22:17:03:  * Cube mapping: yes
+22:17:03:  * Hardware stencil buffer: yes
+22:17:03:    - Stencil depth: 8
+22:17:03:    - Two sided stencil support: yes
+22:17:03:    - Wrap stencil values: yes
+22:17:03:  * Hardware vertex / index buffers: yes
+22:17:03:  * Vertex programs: yes
+22:17:03:    - Max vertex program version: vs_3_0
+22:17:03:  * Fragment programs: yes
+22:17:03:    - Max fragment program version: ps_3_0
+22:17:03:  * Texture Compression: yes
+22:17:04:    - DXT: yes
+22:17:04:    - VTC: no
+22:17:04:  * Scissor Rectangle: yes
+22:17:04:  * Hardware Occlusion Query: yes
+22:17:04:  * User clip planes: yes
+22:17:04:  * VET_UBYTE4 vertex element type: yes
+22:17:04:  * Infinite far plane projection: yes
+22:17:04:  * Hardware render-to-texture: yes
+22:17:04:  * Floating point textures: yes
+22:17:04:  * Non-power-of-two textures: yes
+22:17:04:  * Volume textures: yes
+22:17:04:  * Multiple Render Targets: 4
+22:17:04:  * Point Sprites: yes
+22:17:04:  * Extended point parameters: yes
+22:17:04:  * Max Point Size: 8192
+22:17:04: ***************************************
+22:17:04: *** D3D9 : Subsystem Initialised OK ***
+22:17:04: ***************************************
+22:17:04: ResourceBackgroundQueue - threading disabled
+22:17:04: Particle Renderer Type 'billboard' registered
+22:17:04: Creating viewport on target 'OGRE Render Window', rendering from camera 'PlayerCam', relative dimensions L: 0.00 T: 0.00 W: 1.00 H: 1.00 ZOrder: 0
+22:17:04: Viewport for camera 'PlayerCam', actual dimensions L: 0 T: 0 W: 1024 H: 768
+22:17:04: Parsing scripts for resource group Autodetect
+22:17:04: Finished parsing scripts for resource group Autodetect
+22:17:04: Parsing scripts for resource group General
+22:17:05: Parsing script Example.material
+22:17:05: Parsing script RZR-002.material
+22:17:05: Parsing script zombie.material
+22:17:05: Parsing script OgreCore.material
+22:17:05: Parsing script OgreProfiler.material
+22:17:05: Parsing script sample.fontdef
+22:17:05: Bad attribute line: glyph	 	0.152344	0.125	0.160156	0.1875 in font Ogre
+22:17:05: Parsing script Ogre.fontdef
+22:17:05: Parsing script OgreDebugPanel.overlay
+22:17:05: Texture: New_Ogre_Border_Center.png: Loading 1 faces(PF_A8B8G8R8,256x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x128x1.
+22:17:06: Texture: New_Ogre_Border.png: Loading 1 faces(PF_A8B8G8R8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+22:17:06: Texture: New_Ogre_Border_Break.png: Loading 1 faces(PF_A8B8G8R8,32x32x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+22:17:06: Font TrebuchetMSBoldusing texture size 512x512
+22:17:06: Info: Freetype returned null for character 160 in font TrebuchetMSBold
+22:17:06: Texture: TrebuchetMSBoldTexture: Loading 1 faces(PF_BYTE_LA,512x512x1) with 0 generated mipmaps from Image. Internal format is PF_BYTE_LA,512x512x1.
+22:17:06: Texture: ogretext.png: Loading 1 faces(PF_A8B8G8R8,256x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x128x1.
+22:17:06: Parsing script OgreLoadingPanel.overlay
+22:17:06: Finished parsing scripts for resource group General
+22:17:06: Parsing scripts for resource group Internal
+22:17:06: Finished parsing scripts for resource group Internal
+22:17:07: Texture: ../../GUI/imagesets/WindowsLook.tga: Loading 1 faces(PF_A8R8G8B8,128x128x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+22:17:07: Texture: _cegui_ogre_0: Loading 1 faces(PF_A8R8G8B8,32x32x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+22:17:07: Texture: _cegui_ogre_1: Loading 1 faces(PF_A8R8G8B8,256x256x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+22:17:08: Texture: _cegui_ogre_2: Loading 1 faces(PF_A8R8G8B8,32x32x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+22:17:08: Texture: _cegui_ogre_3: Loading 1 faces(PF_A8R8G8B8,256x256x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+22:17:10: Texture: TaharezLook.tga: Loading 1 faces(PF_A8R8G8B8,256x256x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+22:17:10: Texture: _cegui_ogre_4: Loading 1 faces(PF_A8R8G8B8,32x32x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+22:17:10: Texture: _cegui_ogre_5: Loading 1 faces(PF_A8R8G8B8,256x256x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+22:17:14: Mesh: Loading box.mesh.
+22:17:15: Texture: stevecube_fr.jpg: Loading 1 faces(PF_B8G8R8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+22:17:15: Texture: stevecube_bk.jpg: Loading 1 faces(PF_B8G8R8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+22:17:15: Texture: stevecube_lf.jpg: Loading 1 faces(PF_B8G8R8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+22:17:15: Texture: stevecube_rt.jpg: Loading 1 faces(PF_B8G8R8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+22:17:15: Texture: stevecube_up.jpg: Loading 1 faces(PF_B8G8R8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+22:17:15: Texture: stevecube_dn.jpg: Loading 1 faces(PF_B8G8R8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+22:17:15: Win32Input8: DirectInput Activation Starts
+22:17:15: Win32Input8: Establishing keyboard input.
+22:17:15: Win32Input8: Keyboard input established.
+22:17:16: Win32Input8: Initializing mouse input in immediate mode.
+22:17:16: Win32Input8: Mouse input in immediate mode initialized.
+22:17:16: Win32Input8: DirectInput OK.
+22:17:16: Win32Input8: DirectInput Activation Starts
+22:17:16: Win32Input8: Establishing keyboard input.
+22:17:16: Win32Input8: Keyboard input established.
+22:17:16: Win32Input8: Initializing mouse input in immediate mode.
+22:17:16: Win32Input8: Mouse input in immediate mode initialized.
+22:17:16: Win32Input8: DirectInput OK.
+22:17:16: Win32Input8: DirectInput Activation Starts
+22:17:16: Win32Input8: Establishing keyboard input.
+22:17:16: Win32Input8: Keyboard input established.
+22:17:16: Win32Input8: Initializing mouse input in immediate mode.
+22:17:16: Win32Input8: Mouse input in immediate mode initialized.
+22:17:16: Win32Input8: DirectInput OK.
+22:17:16: Win32Input8: DirectInput Activation Starts
+22:17:16: Win32Input8: Establishing keyboard input.
+22:17:16: Win32Input8: Keyboard input established.
+22:17:16: Win32Input8: Establishing mouse input.
+22:17:16: Win32Input8: Mouse input established.
+22:17:16: Win32Input8: DirectInput OK.
+22:17:16:    Newton Frame Listener... m_elapsed: 0  m_update:0.0166667
+22:17:16:    Newton updates this loop: 0
+22:17:17:    Newton Frame Listener... m_elapsed: 0.324  m_update:0.0166667
+22:17:17:    Newton updates this loop: 19
+22:17:17:    Newton Frame Listener... m_elapsed: 0.0723333  m_update:0.0166667
+22:17:17:    Newton updates this loop: 4
+22:17:17:    Newton Frame Listener... m_elapsed: 0.0846666  m_update:0.0166667
+22:17:17:    Newton updates this loop: 5
+22:17:17:    Newton Frame Listener... m_elapsed: 0.0823333  m_update:0.0166667
+22:17:17:    Newton updates this loop: 4
+22:17:17:    Newton Frame Listener... m_elapsed: 0.0956666  m_update:0.0166667
+22:17:17:    Newton updates this loop: 5
+22:17:17:    Newton Frame Listener... m_elapsed: 0.0923333  m_update:0.0166667
+22:17:17:    Newton updates this loop: 5
+22:17:17:    Newton Frame Listener... m_elapsed: 0.09  m_update:0.0166667
+22:17:17:    Newton updates this loop: 5
+22:17:17:    Newton Frame Listener... m_elapsed: 0.0906666  m_update:0.0166667
+22:17:17:    Newton updates this loop: 5
+22:17:17:    Newton Frame Listener... m_elapsed: 0.0823333  m_update:0.0166667
+22:17:17:    Newton updates this loop: 4
+22:17:17:    Newton Frame Listener... m_elapsed: 0.0966666  m_update:0.0166667
+22:17:17:    Newton updates this loop: 5
+22:17:17:    Newton Frame Listener... m_elapsed: 0.0923333  m_update:0.0166667
+22:17:17:    Newton updates this loop: 5
+22:17:17:    Newton Frame Listener... m_elapsed: 0.089  m_update:0.0166667
+22:17:18:    Newton updates this loop: 5
+22:17:18:    Newton Frame Listener... m_elapsed: 0.0936667  m_update:0.0166667
+22:17:18:    Newton updates this loop: 5
+22:17:18:    Newton Frame Listener... m_elapsed: 0.120333  m_update:0.0166667
+22:17:18:    Newton updates this loop: 7
+22:17:18:    Newton Frame Listener... m_elapsed: 0.0876667  m_update:0.0166667
+22:17:18:    Newton updates this loop: 5
+22:17:18:    Newton Frame Listener... m_elapsed: 0.0833333  m_update:0.0166667
+22:17:18:    Newton updates this loop: 4
+22:17:18:    Newton Frame Listener... m_elapsed: 0.0976667  m_update:0.0166667
+22:17:18:    Newton updates this loop: 5
+22:17:18:    Newton Frame Listener... m_elapsed: 0.0893333  m_update:0.0166667
+22:17:18:    Newton updates this loop: 5
+22:17:18:    Newton Frame Listener... m_elapsed: 0.05  m_update:0.0166667
+22:17:18:    Newton updates this loop: 3
+22:17:18:    Newton Frame Listener... m_elapsed: 0.116  m_update:0.0166667
+22:17:18:    Newton updates this loop: 6
+22:17:18:    Newton Frame Listener... m_elapsed: 0.06  m_update:0.0166667
+22:17:18:    Newton updates this loop: 3
+22:17:18:    Newton Frame Listener... m_elapsed: 0.103  m_update:0.0166667
+22:17:18:    Newton updates this loop: 6
+22:17:18:    Newton Frame Listener... m_elapsed: 0.071  m_update:0.0166667
+22:17:18:    Newton updates this loop: 4
+22:17:18:    Newton Frame Listener... m_elapsed: 0.0853333  m_update:0.0166667
+22:17:18:    Newton updates this loop: 5
+22:17:19:    Newton Frame Listener... m_elapsed: 0.048  m_update:0.0166667
+22:17:19:    Newton updates this loop: 2
+22:17:19:    Newton Frame Listener... m_elapsed: 0.0506667  m_update:0.0166667
+22:17:19:    Newton updates this loop: 3
+22:17:19:    Newton Frame Listener... m_elapsed: 0.0786667  m_update:0.0166667
+22:17:19:    Newton updates this loop: 4
+22:17:19:    Newton Frame Listener... m_elapsed: 0.055  m_update:0.0166667
+22:17:19:    Newton updates this loop: 3
+22:17:19:    Newton Frame Listener... m_elapsed: 0.042  m_update:0.0166667
+22:17:19:    Newton updates this loop: 2
+22:17:19:    Newton Frame Listener... m_elapsed: 0.0506667  m_update:0.0166667
+22:17:19:    Newton updates this loop: 3
+22:17:19:    Newton Frame Listener... m_elapsed: 0.0406667  m_update:0.0166667
+22:17:19:    Newton updates this loop: 2
+22:17:19:    Newton Frame Listener... m_elapsed: 0.0843333  m_update:0.0166667
+22:17:19:    Newton updates this loop: 5
+22:17:19:    Newton Frame Listener... m_elapsed: 0.043  m_update:0.0166667
+22:17:19:    Newton updates this loop: 2
+22:17:19:    Newton Frame Listener... m_elapsed: 0.0496667  m_update:0.0166667
+22:17:19:    Newton updates this loop: 2
+22:17:19:    Newton Frame Listener... m_elapsed: 0.0543333  m_update:0.0166667
+22:17:19:    Newton updates this loop: 3
+22:17:19:    Newton Frame Listener... m_elapsed: 0.0433333  m_update:0.0166667
+22:17:19:    Newton updates this loop: 2
+22:17:19:    Newton Frame Listener... m_elapsed: 0.061  m_update:0.0166667
+22:17:19:    Newton updates this loop: 3
+22:17:19:    Newton Frame Listener... m_elapsed: 0.046  m_update:0.0166667
+22:17:19:    Newton updates this loop: 2
+22:17:19:    Newton Frame Listener... m_elapsed: 0.0886667  m_update:0.0166667
+22:17:19:    Newton updates this loop: 5
+22:17:19:    Newton Frame Listener... m_elapsed: 0.0843333  m_update:0.0166667
+22:17:19:    Newton updates this loop: 5
+22:17:19:    Newton Frame Listener... m_elapsed: 0.041  m_update:0.0166667
+22:17:19:    Newton updates this loop: 2
+22:17:19:    Newton Frame Listener... m_elapsed: 0.0886667  m_update:0.0166667
+22:17:19:    Newton updates this loop: 5
+22:17:19:    Newton Frame Listener... m_elapsed: 0.0523333  m_update:0.0166667
+22:17:19:    Newton updates this loop: 3
+22:17:19:    Newton Frame Listener... m_elapsed: 0.0733333  m_update:0.0166667
+22:17:20:    Newton updates this loop: 4
+22:17:20:    Newton Frame Listener... m_elapsed: 0.0466667  m_update:0.0166667
+22:17:20:    Newton updates this loop: 2
+22:17:20:    Newton Frame Listener... m_elapsed: 0.0533333  m_update:0.0166667
+22:17:20:    Newton updates this loop: 3
+22:17:20:    Newton Frame Listener... m_elapsed: 0.0453333  m_update:0.0166667
+22:17:20:    Newton updates this loop: 2
+22:17:20:    Newton Frame Listener... m_elapsed: 0.05  m_update:0.0166667
+22:17:20:    Newton updates this loop: 2
+22:17:20:    Newton Frame Listener... m_elapsed: 0.0566666  m_update:0.0166667
+22:17:20:    Newton updates this loop: 3
+22:17:20:    Newton Frame Listener... m_elapsed: 0.0466666  m_update:0.0166667
+22:17:20:    Newton updates this loop: 2
+22:17:20:    Newton Frame Listener... m_elapsed: 0.0543333  m_update:0.0166667
+22:17:20:    Newton updates this loop: 3
+22:17:20:    Newton Frame Listener... m_elapsed: 0.0483333  m_update:0.0166667
+22:17:20:    Newton updates this loop: 2
+22:17:20:    Newton Frame Listener... m_elapsed: 0.055  m_update:0.0166667
+22:17:20:    Newton updates this loop: 3
+22:17:20:    Newton Frame Listener... m_elapsed: 0.044  m_update:0.0166667
+22:17:20:    Newton updates this loop: 2
+22:17:20:    Newton Frame Listener... m_elapsed: 0.0906666  m_update:0.0166667
+22:17:20:    Newton updates this loop: 5
+22:17:20:    Newton Frame Listener... m_elapsed: 0.0493333  m_update:0.0166667
+22:17:20:    Newton updates this loop: 2
+22:17:20:    Newton Frame Listener... m_elapsed: 0.055  m_update:0.0166667
+22:17:20:    Newton updates this loop: 3
+22:17:20:    Newton Frame Listener... m_elapsed: 0.045  m_update:0.0166667
+22:17:20:    Newton updates this loop: 2
+22:17:20:    Newton Frame Listener... m_elapsed: 0.0886666  m_update:0.0166667
+22:17:20:    Newton updates this loop: 5
+22:17:20:    Newton Frame Listener... m_elapsed: 0.0483333  m_update:0.0166667
+22:17:20:    Newton updates this loop: 2
+22:17:20:    Newton Frame Listener... m_elapsed: 0.055  m_update:0.0166667
+22:17:20:    Newton updates this loop: 3
+22:17:20:    Newton Frame Listener... m_elapsed: 0.043  m_update:0.0166667
+22:17:20:    Newton updates this loop: 2
+22:17:20:    Newton Frame Listener... m_elapsed: 0.0486666  m_update:0.0166667
+22:17:20:    Newton updates this loop: 2
+22:17:20:    Newton Frame Listener... m_elapsed: 0.0593333  m_update:0.0166667
+22:17:20:    Newton updates this loop: 3
+22:17:20:    Newton Frame Listener... m_elapsed: 0.0493333  m_update:0.0166667
+22:17:20:    Newton updates this loop: 2
+22:17:20:    Newton Frame Listener... m_elapsed: 0.057  m_update:0.0166667
+22:17:20:    Newton updates this loop: 3
+22:17:21:    Newton Frame Listener... m_elapsed: 0.081  m_update:0.0166667
+22:17:21:    Newton updates this loop: 4
+22:17:21:    Newton Frame Listener... m_elapsed: 0.0593333  m_update:0.0166667
+22:17:21:    Newton updates this loop: 3
+22:17:21:    Newton Frame Listener... m_elapsed: 0.0873333  m_update:0.0166667
+22:17:21:    Newton updates this loop: 5
+22:17:21:    Newton Frame Listener... m_elapsed: 0.043  m_update:0.0166667
+22:17:21:    Newton updates this loop: 2
+22:17:21:    Newton Frame Listener... m_elapsed: 0.0486666  m_update:0.0166667
+22:17:21:    Newton updates this loop: 2
+22:17:21:    Newton Frame Listener... m_elapsed: 0.0233333  m_update:0.0166667
+22:17:21:    Newton updates this loop: 1
+22:17:21:    Newton Frame Listener... m_elapsed: 0.0476666  m_update:0.0166667
+22:17:21:    Newton updates this loop: 2
+22:17:21:    Newton Frame Listener... m_elapsed: 0.0503333  m_update:0.0166667
+22:17:21:    Newton updates this loop: 3
+22:17:21:    Newton Frame Listener... m_elapsed: 0.0393333  m_update:0.0166667
+22:17:21:    Newton updates this loop: 2
+22:17:21:    Newton Frame Listener... m_elapsed: 0.047  m_update:0.0166667
+22:17:21:    Newton updates this loop: 2
+22:17:21:    Newton Frame Listener... m_elapsed: 0.0536666  m_update:0.0166667
+22:17:21:    Newton updates this loop: 3
+22:17:21:    Newton Frame Listener... m_elapsed: 0.0436666  m_update:0.0166667
+22:17:21:    Newton updates this loop: 2
+22:17:21:    Newton Frame Listener... m_elapsed: 0.0503333  m_update:0.0166667
+22:17:21:    Newton updates this loop: 3
+22:17:21:    Newton Frame Listener... m_elapsed: 0.0783333  m_update:0.0166667
+22:17:21:    Newton updates this loop: 4
+22:17:21:    Newton Frame Listener... m_elapsed: 0.0506666  m_update:0.0166667
+22:17:21:    Newton updates this loop: 3
+22:17:21:    Newton Frame Listener... m_elapsed: 0.0416666  m_update:0.0166667
+22:17:21:    Newton updates this loop: 2
+22:17:21:    Newton Frame Listener... m_elapsed: 0.0473333  m_update:0.0166667
+22:17:21:    Newton updates this loop: 2
+22:17:21:    Newton Frame Listener... m_elapsed: 0.055  m_update:0.0166667
+22:17:21:    Newton updates this loop: 3
+22:17:21:    Newton Frame Listener... m_elapsed: 0.049  m_update:0.0166667
+22:17:21:    Newton updates this loop: 2
+22:17:21:    Newton Frame Listener... m_elapsed: 0.0926666  m_update:0.0166667
+22:17:21:    Newton updates this loop: 5
+22:17:21:    Newton Frame Listener... m_elapsed: 0.0533333  m_update:0.0166667
+22:17:21:    Newton updates this loop: 3
+22:17:21:    Newton Frame Listener... m_elapsed: 0.0413333  m_update:0.0166667
+22:17:21:    Newton updates this loop: 2
+22:17:22:    Newton Frame Listener... m_elapsed: 0.0479999  m_update:0.0166667
+22:17:22:    Newton updates this loop: 2
+22:17:22:    Newton Frame Listener... m_elapsed: 0.0526666  m_update:0.0166667
+22:17:22:    Newton updates this loop: 3
+22:17:22:    Newton Frame Listener... m_elapsed: 0.0416666  m_update:0.0166667
+22:17:22:    Newton updates this loop: 2
+22:17:22:    Newton Frame Listener... m_elapsed: 0.0463333  m_update:0.0166667
+22:17:22:    Newton updates this loop: 2
+22:17:22:    Newton Frame Listener... m_elapsed: 0.0539999  m_update:0.0166667
+22:17:22:    Newton updates this loop: 3
+22:17:22:    Newton Frame Listener... m_elapsed: 0.0109999  m_update:0.0166667
+22:17:22:    Newton updates this loop: 0
+22:17:22:    Newton Frame Listener... m_elapsed: 0.0479999  m_update:0.0166667
+22:17:22:    Newton updates this loop: 2
+22:17:22:    Newton Frame Listener... m_elapsed: 0.0546666  m_update:0.0166667
+22:17:22:    Newton updates this loop: 3
+22:17:22:    Newton Frame Listener... m_elapsed: 0.0456666  m_update:0.0166667
+22:17:22:    Newton updates this loop: 2
+22:17:22:    Newton Frame Listener... m_elapsed: 0.0513333  m_update:0.0166667
+22:17:22:    Newton updates this loop: 3
+22:17:22:    Newton Frame Listener... m_elapsed: 0.0443333  m_update:0.0166667
+22:17:22:    Newton updates this loop: 2
+22:17:22:    Newton Frame Listener... m_elapsed: 0.0479999  m_update:0.0166667
+22:17:22:    Newton updates this loop: 2
+22:17:22:    Newton Frame Listener... m_elapsed: 0.0556666  m_update:0.0166667
+22:17:22:    Newton updates this loop: 3
+22:17:22:    Newton Frame Listener... m_elapsed: 0.0826666  m_update:0.0166667
+22:17:22:    Newton updates this loop: 4
+22:17:22:    Newton Frame Listener... m_elapsed: 0.0589999  m_update:0.0166667
+22:17:22:    Newton updates this loop: 3
+22:17:22:    Newton Frame Listener... m_elapsed: 0.0509999  m_update:0.0166667
+22:17:22:    Newton updates this loop: 3
+22:17:22:    Newton Frame Listener... m_elapsed: 0.0389999  m_update:0.0166667
+22:17:22:    Newton updates this loop: 2
+22:17:22:    Newton Frame Listener... m_elapsed: 0.0826666  m_update:0.0166667
+22:17:22:    Newton updates this loop: 4
+22:17:22:    Newton Frame Listener... m_elapsed: 0.0589999  m_update:0.0166667
+22:17:22:    Newton updates this loop: 3
+22:17:22:    Newton Frame Listener... m_elapsed: 0.0489999  m_update:0.0166667
+22:17:22:    Newton updates this loop: 2
+22:17:22:    Newton Frame Listener... m_elapsed: 0.0566666  m_update:0.0166667
+22:17:22:    Newton updates this loop: 3
+22:17:22:    Newton Frame Listener... m_elapsed: 0.0476666  m_update:0.0166667
+22:17:22:    Newton updates this loop: 2
+22:17:22:    Newton Frame Listener... m_elapsed: 0.0523333  m_update:0.0166667
+22:17:22:    Newton updates this loop: 3
+22:17:22:    Newton Frame Listener... m_elapsed: 0.0433333  m_update:0.0166667
+22:17:23:    Newton updates this loop: 2
+22:17:23:    Newton Frame Listener... m_elapsed: 0.0499999  m_update:0.0166667
+22:17:23:    Newton updates this loop: 2
+22:17:23:    Newton Frame Listener... m_elapsed: 0.0586666  m_update:0.0166667
+22:17:23:    Newton updates this loop: 3
+22:17:23:    Newton Frame Listener... m_elapsed: 0.0816666  m_update:0.0166667
+22:17:23:    Newton updates this loop: 4
+22:17:23:    Newton Frame Listener... m_elapsed: 0.0229999  m_update:0.0166667
+22:17:23:    Newton updates this loop: 1
+22:17:23:    Newton Frame Listener... m_elapsed: 0.0803332  m_update:0.0166667
+22:17:23:    Newton updates this loop: 4
+22:17:23:    Newton Frame Listener... m_elapsed: 0.0526666  m_update:0.0166667
+22:17:23:    Newton updates this loop: 3
+22:17:23:    Newton Frame Listener... m_elapsed: 0.0426666  m_update:0.0166667
+22:17:23:    Newton updates this loop: 2
+22:17:23:    Newton Frame Listener... m_elapsed: 0.0523332  m_update:0.0166667
+22:17:23:    Newton updates this loop: 3
+22:17:23:    Newton Frame Listener... m_elapsed: 0.0463332  m_update:0.0166667
+22:17:23:    Newton updates this loop: 2
+22:17:23:    Newton Frame Listener... m_elapsed: 0.0859999  m_update:0.0166667
+22:17:23:    Newton updates this loop: 5
+22:17:23:    Newton Frame Listener... m_elapsed: 0.0106666  m_update:0.0166667
+22:17:23:    Newton updates this loop: 0
+22:17:23:    Newton Frame Listener... m_elapsed: 0.0506666  m_update:0.0166667
+22:17:23:    Newton updates this loop: 3
+22:17:23:    Newton Frame Listener... m_elapsed: 0.0776666  m_update:0.0166667
+22:17:23:    Newton updates this loop: 4
+22:17:23:    Newton Frame Listener... m_elapsed: 0.0559999  m_update:0.0166667
+22:17:23:    Newton updates this loop: 3
+22:17:23:    Newton Frame Listener... m_elapsed: 0.0449999  m_update:0.0166667
+22:17:23:    Newton updates this loop: 2
+22:17:23:    Newton Frame Listener... m_elapsed: 0.0496666  m_update:0.0166667
+22:17:23:    Newton updates this loop: 2
+22:17:23:    Newton Frame Listener... m_elapsed: 0.0553332  m_update:0.0166667
+22:17:23:    Newton updates this loop: 3
+22:17:23:    Newton Frame Listener... m_elapsed: 0.0453332  m_update:0.0166667
+22:17:23:    Newton updates this loop: 2
+22:17:23:    Newton Frame Listener... m_elapsed: 0.0519999  m_update:0.0166667
+22:17:23:    Newton updates this loop: 3
+22:17:23:    Newton Frame Listener... m_elapsed: 0.0409999  m_update:0.0166667
+22:17:23:    Newton updates this loop: 2
+22:17:23:    Newton Frame Listener... m_elapsed: 0.0856666  m_update:0.0166667
+22:17:23:    Newton updates this loop: 5
+22:17:23:    Newton Frame Listener... m_elapsed: 0.0443332  m_update:0.0166667
+22:17:24:    Newton updates this loop: 2
+22:17:24:    Newton Frame Listener... m_elapsed: 0.0529999  m_update:0.0166667
+22:17:24:    Newton updates this loop: 3
+22:17:24:    Newton Frame Listener... m_elapsed: 0.0429999  m_update:0.0166667
+22:17:24:    Newton updates this loop: 2
+22:17:24:    Newton Frame Listener... m_elapsed: 0.0516665  m_update:0.0166667
+22:17:24:    Newton updates this loop: 3
+22:17:24:    Newton Frame Listener... m_elapsed: 0.0396665  m_update:0.0166667
+22:17:24:    Newton updates this loop: 2
+22:17:24:    Newton Frame Listener... m_elapsed: 0.0453332  m_update:0.0166667
+22:17:24:    Newton updates this loop: 2
+22:17:24:    Newton Frame Listener... m_elapsed: 0.0499999  m_update:0.0166667
+22:17:24:    Newton updates this loop: 2
+22:17:24:    Newton Frame Listener... m_elapsed: 0.0586665  m_update:0.0166667
+22:17:24:    Newton updates this loop: 3
+22:17:24:    Newton Frame Listener... m_elapsed: 0.0496665  m_update:0.0166667
+22:17:24:    Newton updates this loop: 2
+22:17:24: Mesh: Loading RZR-002.mesh.
+22:17:24: Texture: RZR-002.png: Loading 1 faces(PF_B8G8R8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+22:17:25: Texture: ribbonband.png: Loading 1 faces(PF_B8G8R8,128x1x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x1x1.
+22:17:25: Mesh: Loading geosphere4500.mesh.
+22:17:25: Can't assign material Ground_Grass_sub2 to SubEntity of wp0 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:25: Can't assign material Ground_Grass_sub2 to SubEntity of offset0 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:25: Can't assign material Ground_Grass_sub2 to SubEntity of ffs0 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:25: Can't assign material Ground_Grass_sub2 to SubEntity of wp1 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:25: Can't assign material Ground_Grass_sub2 to SubEntity of offset1 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:25: Can't assign material Ground_Grass_sub2 to SubEntity of ffs1 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:25: Can't assign material Ground_Grass_sub2 to SubEntity of wp2 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:25: Can't assign material Ground_Grass_sub2 to SubEntity of offset2 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:25: Can't assign material Ground_Grass_sub2 to SubEntity of ffs2 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:25: Can't assign material Ground_Grass_sub2 to SubEntity of wp3 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:25: Can't assign material Ground_Grass_sub2 to SubEntity of offset3 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:25: Can't assign material Ground_Grass_sub2 to SubEntity of ffs3 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:25: Can't assign material Ground_Grass_sub2 to SubEntity of wp4 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:25: Can't assign material Ground_Grass_sub2 to SubEntity of offset4 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:25: Can't assign material Ground_Grass_sub2 to SubEntity of ffs4 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:25: Can't assign material Ground_Grass_sub2 to SubEntity of wp5 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:25: Can't assign material Ground_Grass_sub2 to SubEntity of offset5 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:25: Can't assign material Ground_Grass_sub2 to SubEntity of ffs5 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:25: Can't assign material Ground_Grass_sub2 to SubEntity of wp6 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:25: Can't assign material Ground_Grass_sub2 to SubEntity of offset6 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:25: Can't assign material Ground_Grass_sub2 to SubEntity of ffs6 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:25: Can't assign material Ground_Grass_sub2 to SubEntity of wp7 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of offset7 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of ffs7 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of wp8 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of offset8 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of ffs8 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of wp9 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of offset9 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of ffs9 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of wp10 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of offset10 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of ffs10 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of wp11 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of offset11 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of ffs11 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of wp12 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of offset12 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of ffs12 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of wp13 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of offset13 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of ffs13 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of wp14 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of offset14 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of ffs14 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of wp15 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of offset15 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of ffs15 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of wp16 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of offset16 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of ffs16 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of wp17 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of offset17 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of ffs17 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of wp18 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of offset18 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of ffs18 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of wp19 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of offset19 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of ffs19 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of wp20 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of offset20 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of ffs20 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of wp21 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of offset21 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of ffs21 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of wp22 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of offset22 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of ffs22 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of wp23 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of offset23 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of ffs23 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of wp24 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of offset24 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:26: Can't assign material Ground_Grass_sub2 to SubEntity of ffs24 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of wp25 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of offset25 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of ffs25 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of wp26 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of offset26 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of ffs26 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of wp27 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of offset27 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of ffs27 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of wp28 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of offset28 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of ffs28 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of wp29 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of offset29 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of ffs29 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of wp30 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of offset30 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of ffs30 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of wp31 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of offset31 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of ffs31 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of wp32 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of offset32 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of ffs32 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of wp33 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of offset33 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of ffs33 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of wp34 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of offset34 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of ffs34 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of wp35 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of offset35 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of ffs35 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of wp36 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of offset36 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of ffs36 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of wp37 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of offset37 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of ffs37 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of wp38 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of offset38 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of ffs38 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of wp39 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of offset39 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of ffs39 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of wp40 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of offset40 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of ffs40 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of wp41 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of offset41 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of ffs41 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of wp42 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of offset42 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of ffs42 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of wp43 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:27: Can't assign material Ground_Grass_sub2 to SubEntity of offset43 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of ffs43 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of wp44 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of offset44 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of ffs44 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of wp45 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of offset45 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of ffs45 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of wp46 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of offset46 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of ffs46 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of wp47 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of offset47 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of ffs47 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of wp48 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of offset48 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of ffs48 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of wp49 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of offset49 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of ffs49 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of wp50 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of offset50 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of ffs50 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of wp51 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of offset51 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of ffs51 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of wp52 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of offset52 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of ffs52 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of wp53 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of offset53 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of ffs53 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of wp54 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of offset54 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of ffs54 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of wp55 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of offset55 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of ffs55 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of wp56 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of offset56 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of ffs56 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of wp57 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of offset57 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of ffs57 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of wp58 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of offset58 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of ffs58 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of wp59 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of offset59 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of ffs59 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of wp60 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of offset60 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:28: Can't assign material Ground_Grass_sub2 to SubEntity of ffs60 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of wp61 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of offset61 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of ffs61 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of wp62 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of offset62 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of ffs62 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of wp63 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of offset63 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of ffs63 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of wp64 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of offset64 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of ffs64 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of wp65 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of offset65 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of ffs65 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of wp66 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of offset66 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of ffs66 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of wp67 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of offset67 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of ffs67 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of wp68 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of offset68 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of ffs68 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of wp69 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of offset69 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of ffs69 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of wp70 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of offset70 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of ffs70 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of wp71 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of offset71 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of ffs71 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of wp72 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of offset72 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of ffs72 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of wp73 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of offset73 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of ffs73 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of wp74 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of offset74 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of ffs74 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of wp75 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of offset75 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of ffs75 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of wp76 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of offset76 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of ffs76 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of wp77 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of offset77 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of ffs77 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of wp78 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:29: Can't assign material Ground_Grass_sub2 to SubEntity of offset78 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of ffs78 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of wp79 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of offset79 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of ffs79 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of wp80 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of offset80 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of ffs80 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of wp81 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of offset81 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of ffs81 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of wp82 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of offset82 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of ffs82 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of wp83 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of offset83 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of ffs83 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of wp84 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of offset84 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of ffs84 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of wp85 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of offset85 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of ffs85 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of wp86 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of offset86 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of ffs86 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of wp87 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of offset87 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of ffs87 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of wp88 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of offset88 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of ffs88 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of wp89 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of offset89 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of ffs89 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of wp90 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of offset90 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of ffs90 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of wp91 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of offset91 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of ffs91 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of wp92 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of offset92 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of ffs92 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of wp93 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of offset93 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of ffs93 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of wp94 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of offset94 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of ffs94 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of wp95 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of offset95 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of ffs95 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of wp96 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of offset96 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:30: Can't assign material Ground_Grass_sub2 to SubEntity of ffs96 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of wp97 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of offset97 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of ffs97 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of wp98 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of offset98 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of ffs98 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of wp99 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of offset99 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of ffs99 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of wp100 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of offset100 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of ffs100 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of wp101 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of offset101 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of ffs101 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of wp102 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of offset102 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of ffs102 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of wp103 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of offset103 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of ffs103 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of wp104 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of offset104 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of ffs104 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of wp105 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of offset105 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of ffs105 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of wp106 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of offset106 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of ffs106 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of wp107 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of offset107 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of ffs107 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of wp108 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of offset108 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of ffs108 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of wp109 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of offset109 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of ffs109 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of wp110 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of offset110 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of ffs110 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of wp111 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of offset111 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of ffs111 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of wp112 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of offset112 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of ffs112 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:31: Can't assign material Ground_Grass_sub2 to SubEntity of wp113 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of offset113 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of ffs113 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of wp114 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of offset114 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of ffs114 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of wp115 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of offset115 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of ffs115 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of wp116 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of offset116 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of ffs116 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of wp117 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of offset117 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of ffs117 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of wp118 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of offset118 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of ffs118 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of wp119 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of offset119 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of ffs119 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of wp120 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of offset120 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of ffs120 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of wp121 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of offset121 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of ffs121 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of wp122 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of offset122 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of ffs122 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of wp123 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of offset123 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of ffs123 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of wp124 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of offset124 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of ffs124 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of wp125 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of offset125 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of ffs125 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of wp126 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of offset126 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of ffs126 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of wp127 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of offset127 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of ffs127 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of wp128 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of offset128 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of ffs128 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:32: Can't assign material Ground_Grass_sub2 to SubEntity of wp129 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of offset129 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of ffs129 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of wp130 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of offset130 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of ffs130 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of wp131 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of offset131 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of ffs131 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of wp132 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of offset132 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of ffs132 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of wp133 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of offset133 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of ffs133 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of wp134 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of offset134 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of ffs134 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of wp135 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of offset135 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of ffs135 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of wp136 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of offset136 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of ffs136 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of wp137 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of offset137 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of ffs137 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of wp138 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of offset138 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of ffs138 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of wp139 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of offset139 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of ffs139 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of wp140 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of offset140 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of ffs140 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of wp141 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of offset141 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of ffs141 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of wp142 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of offset142 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of ffs142 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of wp143 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of offset143 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of ffs143 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of wp144 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of offset144 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of ffs144 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of wp145 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:33: Can't assign material Ground_Grass_sub2 to SubEntity of offset145 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:34: Can't assign material Ground_Grass_sub2 to SubEntity of ffs145 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:34: Can't assign material Ground_Grass_sub2 to SubEntity of wp146 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:34: Can't assign material Ground_Grass_sub2 to SubEntity of offset146 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:34: Can't assign material Ground_Grass_sub2 to SubEntity of ffs146 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:34: Can't assign material Ground_Grass_sub2 to SubEntity of wp147 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:34: Can't assign material Ground_Grass_sub2 to SubEntity of offset147 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:34: Can't assign material Ground_Grass_sub2 to SubEntity of ffs147 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:34: Can't assign material Ground_Grass_sub2 to SubEntity of wp148 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:34: Can't assign material Ground_Grass_sub2 to SubEntity of offset148 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:34: Can't assign material Ground_Grass_sub2 to SubEntity of ffs148 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:34: Can't assign material Ground_Grass_sub2 to SubEntity of wp149 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:34: Can't assign material Ground_Grass_sub2 to SubEntity of offset149 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:34: Can't assign material Ground_Grass_sub2 to SubEntity of ffs149 because this Material does not exist. Have you forgotten to define it in a .material script?
+22:17:34:    Newton Frame Listener... m_elapsed: 9.98533  m_update:0.0166667
+22:17:34:    Newton updates this loop: 1
+22:17:34:    Newton Frame Listener... m_elapsed: 0.054  m_update:0.0166667
+22:17:34:    Newton updates this loop: 3
+22:17:34:    Newton Frame Listener... m_elapsed: 0.047  m_update:0.0166667
+22:17:34:    Newton updates this loop: 2
+22:17:34:    Newton Frame Listener... m_elapsed: 0.0496667  m_update:0.0166667
+22:17:34:    Newton updates this loop: 2
+22:17:34:    Newton Frame Listener... m_elapsed: 0.0573333  m_update:0.0166667
+22:17:34:    Newton updates this loop: 3
+22:17:34:    Newton Frame Listener... m_elapsed: 0.0833333  m_update:0.0166667
+22:17:34:    Newton updates this loop: 4
+22:17:34:    Newton Frame Listener... m_elapsed: 0.0936667  m_update:0.0166667
+22:17:34:    Newton updates this loop: 5
+22:17:34:    Newton Frame Listener... m_elapsed: 0.0573333  m_update:0.0166667
+22:17:34:    Newton updates this loop: 3
+22:17:34:    Newton Frame Listener... m_elapsed: 0.0883333  m_update:0.0166667
+22:17:34:    Newton updates this loop: 5
+22:17:34:    Newton Frame Listener... m_elapsed: 0.08  m_update:0.0166667
+22:17:34:    Newton updates this loop: 4
+22:17:34:    Newton Frame Listener... m_elapsed: 0.0913333  m_update:0.0166667
+22:17:34:    Newton updates this loop: 5
+22:17:34:    Newton Frame Listener... m_elapsed: 0.054  m_update:0.0166667
+22:17:34:    Newton updates this loop: 3
+22:17:34:    Newton Frame Listener... m_elapsed: 0.046  m_update:0.0166667
+22:17:34:    Newton updates this loop: 2
+22:17:34:    Newton Frame Listener... m_elapsed: 0.0526667  m_update:0.0166667
+22:17:35:    Newton updates this loop: 3
+22:17:35:    Newton Frame Listener... m_elapsed: 0.0426667  m_update:0.0166667
+22:17:35:    Newton updates this loop: 2
+22:17:35:    Newton Frame Listener... m_elapsed: 0.0493333  m_update:0.0166667
+22:17:35:    Newton updates this loop: 2
+22:17:35:    Newton Frame Listener... m_elapsed: 0.053  m_update:0.0166667
+22:17:35:    Newton updates this loop: 3
+22:17:35:    Newton Frame Listener... m_elapsed: 0.044  m_update:0.0166667
+22:17:35:    Newton updates this loop: 2
+22:17:35:    Newton Frame Listener... m_elapsed: 0.0536667  m_update:0.0166667
+22:17:35:    Newton updates this loop: 3
+22:17:35:    Newton Frame Listener... m_elapsed: 0.0406667  m_update:0.0166667
+22:17:35:    Newton updates this loop: 2
+22:17:35:    Newton Frame Listener... m_elapsed: 0.0493333  m_update:0.0166667
+22:17:35:    Newton updates this loop: 2
+22:17:35:    Newton Frame Listener... m_elapsed: 0.054  m_update:0.0166667
+22:17:35:    Newton updates this loop: 3
+22:17:35:    Newton Frame Listener... m_elapsed: 0.044  m_update:0.0166667
+22:17:35:    Newton updates this loop: 2
+22:17:35:    Newton Frame Listener... m_elapsed: 0.0866666  m_update:0.0166667
+22:17:35:    Newton updates this loop: 5
+22:17:35:    Newton Frame Listener... m_elapsed: 0.0493333  m_update:0.0166667
+22:17:35:    Newton updates this loop: 2
+22:17:35:    Newton Frame Listener... m_elapsed: 0.055  m_update:0.0166667
+22:17:35:    Newton updates this loop: 3
+22:17:35:    Newton Frame Listener... m_elapsed: 0.08  m_update:0.0166667
+22:17:35:    Newton updates this loop: 4
+22:17:35:    Newton Frame Listener... m_elapsed: 0.0583333  m_update:0.0166667
+22:17:35:    Newton updates this loop: 3
+22:17:35:    Newton Frame Listener... m_elapsed: 0.0493333  m_update:0.0166667
+22:17:35:    Newton updates this loop: 2
+22:17:35:    Newton Frame Listener... m_elapsed: 0.055  m_update:0.0166667
+22:17:35:    Newton updates this loop: 3
+22:17:35:    Newton Frame Listener... m_elapsed: 0.045  m_update:0.0166667
+22:17:35:    Newton updates this loop: 2
+22:17:35:    Newton Frame Listener... m_elapsed: 0.126667  m_update:0.0166667
+22:17:35:    Newton updates this loop: 7
+22:17:35:    Newton Frame Listener... m_elapsed: 0.055  m_update:0.0166667
+22:17:35:    Newton updates this loop: 3
+22:17:35:    Newton Frame Listener... m_elapsed: 0.046  m_update:0.0166667
+22:17:35:    Newton updates this loop: 2
+22:17:35:    Newton Frame Listener... m_elapsed: 0.0516666  m_update:0.0166667
+22:17:36:    Newton updates this loop: 3
+22:17:36:    Newton Frame Listener... m_elapsed: 0.0416666  m_update:0.0166667
+22:17:36:    Newton updates this loop: 2
+22:17:36:    Newton Frame Listener... m_elapsed: 0.0503333  m_update:0.0166667
+22:17:36:    Newton updates this loop: 3
+22:17:36:    Newton Frame Listener... m_elapsed: 0.0733333  m_update:0.0166667
+22:17:36:    Newton updates this loop: 4
+22:17:36:    Newton Frame Listener... m_elapsed: 0.0516666  m_update:0.0166667
+22:17:36:    Newton updates this loop: 3
+22:17:36:    Newton Frame Listener... m_elapsed: 0.0436666  m_update:0.0166667
+22:17:36:    Newton updates this loop: 2
+22:17:36:    Newton Frame Listener... m_elapsed: 0.0883333  m_update:0.0166667
+22:17:36:    Newton updates this loop: 5
+22:17:36:    Newton Frame Listener... m_elapsed: 0.045  m_update:0.0166667
+22:17:36:    Newton updates this loop: 2
+22:17:36:    Newton Frame Listener... m_elapsed: 0.0526666  m_update:0.0166667
+22:17:36:    Newton updates this loop: 3
+22:17:36:    Newton Frame Listener... m_elapsed: 0.0416666  m_update:0.0166667
+22:17:36:    Newton updates this loop: 2
+22:17:36:    Newton Frame Listener... m_elapsed: 0.0493333  m_update:0.0166667
+22:17:36:    Newton updates this loop: 2
+22:17:36:    Newton Frame Listener... m_elapsed: 0.093  m_update:0.0166667
+22:17:36:    Newton updates this loop: 5
+22:17:36:    Newton Frame Listener... m_elapsed: 0.0526666  m_update:0.0166667
+22:17:36:    Newton updates this loop: 3
+22:17:36:    Newton Frame Listener... m_elapsed: 0.0436666  m_update:0.0166667
+22:17:36:    Newton updates this loop: 2
+22:17:36:    Newton Frame Listener... m_elapsed: 0.0503333  m_update:0.0166667
+22:17:36:    Newton updates this loop: 3
+22:17:36:    Newton Frame Listener... m_elapsed: 0.0393333  m_update:0.0166667
+22:17:36:    Newton updates this loop: 2
+22:17:36:    Newton Frame Listener... m_elapsed: 0.048  m_update:0.0166667
+22:17:36:    Newton updates this loop: 2
+22:17:36:    Newton Frame Listener... m_elapsed: 0.0526666  m_update:0.0166667
+22:17:36:    Newton updates this loop: 3
+22:17:36:    Newton Frame Listener... m_elapsed: 0.0426666  m_update:0.0166667
+22:17:36:    Newton updates this loop: 2
+22:17:36:    Newton Frame Listener... m_elapsed: 0.0503333  m_update:0.0166667
+22:17:36:    Newton updates this loop: 3
+22:17:36:    Newton Frame Listener... m_elapsed: 0.0413333  m_update:0.0166667
+22:17:36:    Newton updates this loop: 2
+22:17:36:    Newton Frame Listener... m_elapsed: 0.0459999  m_update:0.0166667
+22:17:36:    Newton updates this loop: 2
+22:17:36:    Newton Frame Listener... m_elapsed: 0.0536666  m_update:0.0166667
+22:17:37:    Newton updates this loop: 3
+22:17:37:    Newton Frame Listener... m_elapsed: 0.0436666  m_update:0.0166667
+22:17:37:    Newton updates this loop: 2
+22:17:37:    Newton Frame Listener... m_elapsed: 0.0503333  m_update:0.0166667
+22:17:37:    Newton updates this loop: 3
+22:17:37:    Newton Frame Listener... m_elapsed: 0.0403333  m_update:0.0166667
+22:17:37:    Newton updates this loop: 2
+22:17:37:    Newton Frame Listener... m_elapsed: 0.0489999  m_update:0.0166667
+22:17:37:    Newton updates this loop: 2
+22:17:37:    Newton Frame Listener... m_elapsed: 0.0536666  m_update:0.0166667
+22:17:37:    Newton updates this loop: 3
+22:17:37:    Newton Frame Listener... m_elapsed: 0.0796666  m_update:0.0166667
+22:17:37:    Newton updates this loop: 4
+22:17:37:    Newton Frame Listener... m_elapsed: 0.0559999  m_update:0.0166667
+22:17:37:    Newton updates this loop: 3
+22:17:37:    Newton Frame Listener... m_elapsed: 0.0499999  m_update:0.0166667
+22:17:37:    Newton updates this loop: 2
+22:17:37:    Newton Frame Listener... m_elapsed: 0.0546666  m_update:0.0166667
+22:17:37:    Newton updates this loop: 3
+22:17:37:    Newton Frame Listener... m_elapsed: 0.0816666  m_update:0.0166667
+22:17:37:    Newton updates this loop: 4
+22:17:37:    Newton Frame Listener... m_elapsed: 0.0569999  m_update:0.0166667
+22:17:37:    Newton updates this loop: 3
+22:17:37:    Newton Frame Listener... m_elapsed: 0.0479999  m_update:0.0166667
+22:17:37:    Newton updates this loop: 2
+22:17:37:    Newton Frame Listener... m_elapsed: 0.0536666  m_update:0.0166667
+22:17:37:    Newton updates this loop: 3
+22:17:37:    Newton Frame Listener... m_elapsed: 0.0446666  m_update:0.0166667
+22:17:37:    Newton updates this loop: 2
+22:17:37:    Newton Frame Listener... m_elapsed: 0.0523333  m_update:0.0166667
+22:17:37:    Newton updates this loop: 3
+22:17:37:    Newton Frame Listener... m_elapsed: 0.0413333  m_update:0.0166667
+22:17:37:    Newton updates this loop: 2
+22:17:37:    Newton Frame Listener... m_elapsed: 0.0499999  m_update:0.0166667
+22:17:37:    Newton updates this loop: 2
+22:17:37:    Newton Frame Listener... m_elapsed: 0.0546666  m_update:0.0166667
+22:17:37:    Newton updates this loop: 3
+22:17:37:    Newton Frame Listener... m_elapsed: 0.0446666  m_update:0.0166667
+22:17:37:    Newton updates this loop: 2
+22:17:37:    Newton Frame Listener... m_elapsed: 0.0513332  m_update:0.0166667
+22:17:37:    Newton updates this loop: 3
+22:17:37:    Newton Frame Listener... m_elapsed: 0.0423332  m_update:0.0166667
+22:17:37:    Newton updates this loop: 2
+22:17:37:    Newton Frame Listener... m_elapsed: 0.0489999  m_update:0.0166667
+22:17:37:    Newton updates this loop: 2
+22:17:37:    Newton Frame Listener... m_elapsed: 0.0556666  m_update:0.0166667
+22:17:38:    Newton updates this loop: 3
+22:17:38:    Newton Frame Listener... m_elapsed: 0.0556666  m_update:0.0166667
+22:17:38:    Newton updates this loop: 3
+22:17:38:    Newton Frame Listener... m_elapsed: 0.0706666  m_update:0.0166667
+22:17:38:    Newton updates this loop: 4
+22:17:38:    Newton Frame Listener... m_elapsed: 0.0839999  m_update:0.0166667
+22:17:38:    Newton updates this loop: 5
+22:17:38:    Newton Frame Listener... m_elapsed: 0.0436666  m_update:0.0166667
+22:17:38:    Newton updates this loop: 2
+22:17:38:    Newton Frame Listener... m_elapsed: 0.0563332  m_update:0.0166667
+22:17:38:    Newton updates this loop: 3
+22:17:38:    Newton Frame Listener... m_elapsed: 0.0423332  m_update:0.0166667
+22:17:38:    Newton updates this loop: 2
+22:17:38:    Newton Frame Listener... m_elapsed: 0.0539999  m_update:0.0166667
+22:17:38:    Newton updates this loop: 3
+22:17:38:    Newton Frame Listener... m_elapsed: 0.0419999  m_update:0.0166667
+22:17:38:    Newton updates this loop: 2
+22:17:38:    Newton Frame Listener... m_elapsed: 0.0466666  m_update:0.0166667
+22:17:38:    Newton updates this loop: 2
+22:17:38:    Newton Frame Listener... m_elapsed: 0.0533332  m_update:0.0166667
+22:17:38:    Newton updates this loop: 3
+22:17:38:    Newton Frame Listener... m_elapsed: 0.0773332  m_update:0.0166667
+22:17:38:    Newton updates this loop: 4
+22:17:38:    Newton Frame Listener... m_elapsed: 0.0556666  m_update:0.0166667
+22:17:38:    Newton updates this loop: 3
+22:17:38:    Newton Frame Listener... m_elapsed: 0.0456666  m_update:0.0166667
+22:17:38:    Newton updates this loop: 2
+22:17:38:    Newton Frame Listener... m_elapsed: 0.0523332  m_update:0.0166667
+22:17:38:    Newton updates this loop: 3
+22:17:38:    Newton Frame Listener... m_elapsed: 0.0443332  m_update:0.0166667
+22:17:38:    Newton updates this loop: 2
+22:17:38:    Newton Frame Listener... m_elapsed: 0.0489999  m_update:0.0166667
+22:17:38:    Newton updates this loop: 2
+22:17:38:    Newton Frame Listener... m_elapsed: 0.0566666  m_update:0.0166667
+22:17:38:    Newton updates this loop: 3
+22:17:38:    Newton Frame Listener... m_elapsed: 0.0816666  m_update:0.0166667
+22:17:38:    Newton updates this loop: 4
+22:17:38:    Newton Frame Listener... m_elapsed: 0.0599999  m_update:0.0166667
+22:17:38:    Newton updates this loop: 3
+22:17:38:    Newton Frame Listener... m_elapsed: 0.0499999  m_update:0.0166667
+22:17:38:    Newton updates this loop: 2
+22:17:38:    Newton Frame Listener... m_elapsed: 0.0566666  m_update:0.0166667
+22:17:39:    Newton updates this loop: 3
+22:17:39:    Newton Frame Listener... m_elapsed: 0.0466666  m_update:0.0166667
+22:17:39:    Newton updates this loop: 2
+22:17:39:    Newton Frame Listener... m_elapsed: 0.0893332  m_update:0.0166667
+22:17:39:    Newton updates this loop: 5
+22:17:39:    Newton Frame Listener... m_elapsed: 0.0499999  m_update:0.0166667
+22:17:39:    Newton updates this loop: 2
+22:17:39:    Newton Frame Listener... m_elapsed: 0.0566666  m_update:0.0166667
+22:17:39:    Newton updates this loop: 3
+22:17:39:    Newton Frame Listener... m_elapsed: 0.0466666  m_update:0.0166667
+22:17:39:    Newton updates this loop: 2
+22:17:39:    Newton Frame Listener... m_elapsed: 0.0903332  m_update:0.0166667
+22:17:39:    Newton updates this loop: 5
+22:17:39:    Newton Frame Listener... m_elapsed: 0.0489999  m_update:0.0166667
+22:17:39:    Newton updates this loop: 2
+22:17:39:    Newton Frame Listener... m_elapsed: 0.0566666  m_update:0.0166667
+22:17:39:    Newton updates this loop: 3
+22:17:39:    Newton Frame Listener... m_elapsed: 0.0496666  m_update:0.0166667
+22:17:39:    Newton updates this loop: 2
+22:17:39:    Newton Frame Listener... m_elapsed: 0.0543332  m_update:0.0166667
+22:17:39:    Newton updates this loop: 3
+22:17:39:    Newton Frame Listener... m_elapsed: 0.0443332  m_update:0.0166667
+22:17:39:    Newton updates this loop: 2
+22:17:39:    Newton Frame Listener... m_elapsed: 0.0519999  m_update:0.0166667
+22:17:39:    Newton updates this loop: 3
+22:17:39:    Newton Frame Listener... m_elapsed: 0.0429999  m_update:0.0166667
+22:17:39:    Newton updates this loop: 2
+22:17:39:    Newton Frame Listener... m_elapsed: 0.0496665  m_update:0.0166667
+22:17:39:    Newton updates this loop: 2
+22:17:39:    Newton Frame Listener... m_elapsed: 0.0573332  m_update:0.0166667
+22:17:39:    Newton updates this loop: 3
+22:17:39:    Newton Frame Listener... m_elapsed: 0.0803332  m_update:0.0166667
+22:17:39:    Newton updates this loop: 4
+22:17:39:    Newton Frame Listener... m_elapsed: 0.0566666  m_update:0.0166667
+22:17:39:    Newton updates this loop: 3
+22:17:39:    Newton Frame Listener... m_elapsed: 0.0476666  m_update:0.0166667
+22:17:39:    Newton updates this loop: 2
+22:17:39:    Newton Frame Listener... m_elapsed: 0.0543332  m_update:0.0166667
+22:17:39:    Newton updates this loop: 3
+22:17:39:    Newton Frame Listener... m_elapsed: 0.0913332  m_update:0.0166667
+22:17:40:    Newton updates this loop: 5
+22:17:40:    Newton Frame Listener... m_elapsed: 0.0799999  m_update:0.0166667
+22:17:40:    Newton updates this loop: 4
+22:17:40:    Newton Frame Listener... m_elapsed: 0.0553332  m_update:0.0166667
+22:17:40:    Newton updates this loop: 3
+22:17:40:    Newton Frame Listener... m_elapsed: 0.0473332  m_update:0.0166667
+22:17:40:    Newton updates this loop: 2
+22:17:40:    Newton Frame Listener... m_elapsed: 0.0519999  m_update:0.0166667
+22:17:40:    Newton updates this loop: 3
+22:17:40:    Newton Frame Listener... m_elapsed: 0.0469999  m_update:0.0166667
+22:17:40:    Newton updates this loop: 2
+22:17:40:    Newton Frame Listener... m_elapsed: 0.0486665  m_update:0.0166667
+22:17:40:    Newton updates this loop: 2
+22:17:40:    Newton Frame Listener... m_elapsed: 0.0553332  m_update:0.0166667
+22:17:40:    Newton updates this loop: 3
+22:17:40:    Newton Frame Listener... m_elapsed: 0.0463332  m_update:0.0166667
+22:17:40:    Newton updates this loop: 2
+22:17:40:    Newton Frame Listener... m_elapsed: 0.0519999  m_update:0.0166667
+22:17:40:    Newton updates this loop: 3
+22:17:40:    Newton Frame Listener... m_elapsed: 0.0419999  m_update:0.0166667
+22:17:40:    Newton updates this loop: 2
+22:17:40:    Newton Frame Listener... m_elapsed: 0.0516665  m_update:0.0166667
+22:17:40:    Newton updates this loop: 3
+22:17:40:    Newton Frame Listener... m_elapsed: 0.0396665  m_update:0.0166667
+22:17:40:    Newton updates this loop: 2
+22:17:40:    Newton Frame Listener... m_elapsed: 0.0463332  m_update:0.0166667
+22:17:40:    Newton updates this loop: 2
+22:17:40:    Newton Frame Listener... m_elapsed: 0.0559999  m_update:0.0166667
+22:17:40:    Newton updates this loop: 3
+22:17:40:    Newton Frame Listener... m_elapsed: 0.0429999  m_update:0.0166667
+22:17:40:    Newton updates this loop: 2
+22:17:40:    Newton Frame Listener... m_elapsed: 0.0496665  m_update:0.0166667
+22:17:40:    Newton updates this loop: 2
+22:17:40:    Newton Frame Listener... m_elapsed: 0.0593332  m_update:0.0166667
+22:17:40:    Newton updates this loop: 3
+22:17:40:    Newton Frame Listener... m_elapsed: 0.0813332  m_update:0.0166667
+22:17:40:    Newton updates this loop: 4
+22:17:40:    Newton Frame Listener... m_elapsed: 0.0586665  m_update:0.0166667
+22:17:40:    Newton updates this loop: 3
+22:17:40:    Newton Frame Listener... m_elapsed: 0.0896665  m_update:0.0166667
+22:17:40:    Newton updates this loop: 5
+22:17:40:    Newton Frame Listener... m_elapsed: 0.0823332  m_update:0.0166667
+22:17:40:    Newton updates this loop: 4
+22:17:41:    Newton Frame Listener... m_elapsed: 0.0606665  m_update:0.0166667
+22:17:41:    Newton updates this loop: 3
+22:17:41:    Newton Frame Listener... m_elapsed: 0.0496665  m_update:0.0166667
+22:17:41:    Newton updates this loop: 2
+22:17:41:    Newton Frame Listener... m_elapsed: 0.0593332  m_update:0.0166667
+22:17:41:    Newton updates this loop: 3
+22:17:41:    Newton Frame Listener... m_elapsed: 0.0833332  m_update:0.0166667
+22:17:41:    Newton updates this loop: 4
+22:17:41:    Newton Frame Listener... m_elapsed: 0.0606665  m_update:0.0166667
+22:17:41:    Newton updates this loop: 3
+22:17:41:    Newton Frame Listener... m_elapsed: 0.0516665  m_update:0.0166667
+22:17:41:    Newton updates this loop: 3
+22:17:41:    Newton Frame Listener... m_elapsed: 0.0766665  m_update:0.0166667
+22:17:41:    Newton updates this loop: 4
+22:17:41:    Newton Frame Listener... m_elapsed: 0.0559999  m_update:0.0166667
+22:17:41:    Newton updates this loop: 3
+22:17:41:    Newton Frame Listener... m_elapsed: 0.0439999  m_update:0.0166667
+22:17:41:    Newton updates this loop: 2
+22:17:41:    Newton Frame Listener... m_elapsed: 0.0516665  m_update:0.0166667
+22:17:41:    Newton updates this loop: 3
+22:17:41:    Newton Frame Listener... m_elapsed: 0.0426665  m_update:0.0166667
+22:17:41:    Newton updates this loop: 2
+22:17:41:    Newton Frame Listener... m_elapsed: 0.0473332  m_update:0.0166667
+22:17:41:    Newton updates this loop: 2
+22:17:41:    Newton Frame Listener... m_elapsed: 0.0549998  m_update:0.0166667
+22:17:41:    Newton updates this loop: 3
+22:17:41:    Newton Frame Listener... m_elapsed: 0.0439998  m_update:0.0166667
+22:17:41:    Newton updates this loop: 2
+22:17:41:    Newton Frame Listener... m_elapsed: 0.0506665  m_update:0.0166667
+22:17:41:    Newton updates this loop: 3
+22:17:41:    Newton Frame Listener... m_elapsed: 0.0776665  m_update:0.0166667
+22:17:41:    Newton updates this loop: 4
+22:17:41:    Newton Frame Listener... m_elapsed: 0.0529998  m_update:0.0166667
+22:17:41:    Newton updates this loop: 3
+22:17:41:    Newton Frame Listener... m_elapsed: 0.0449998  m_update:0.0166667
+22:17:41:    Newton updates this loop: 2
+22:17:41:    Newton Frame Listener... m_elapsed: 0.0876665  m_update:0.0166667
+22:17:41:    Newton updates this loop: 5
+22:17:41:    Newton Frame Listener... m_elapsed: 0.0493332  m_update:0.0166667
+22:17:41:    Newton updates this loop: 2
+22:17:41:    Newton Frame Listener... m_elapsed: 0.0549998  m_update:0.0166667
+22:17:41:    Newton updates this loop: 3
+22:17:42:    Newton Frame Listener... m_elapsed: 0.0459998  m_update:0.0166667
+22:17:42:    Newton updates this loop: 2
+22:17:42:    Newton Frame Listener... m_elapsed: 0.0876665  m_update:0.0166667
+22:17:42:    Newton updates this loop: 5
+22:17:42:    Newton Frame Listener... m_elapsed: 0.0503332  m_update:0.0166667
+22:17:42:    Newton updates this loop: 3
+22:17:42:    Newton Frame Listener... m_elapsed: 0.0393332  m_update:0.0166667
+22:17:42:    Newton updates this loop: 2
+22:17:42:    Newton Frame Listener... m_elapsed: 0.0459998  m_update:0.0166667
+22:17:42:    Newton updates this loop: 2
+22:17:42:    Newton Frame Listener... m_elapsed: 0.0536665  m_update:0.0166667
+22:17:42:    Newton updates this loop: 3
+22:17:42:    Newton Frame Listener... m_elapsed: 0.0776665  m_update:0.0166667
+22:17:42:    Newton updates this loop: 4
+22:17:42:    Newton Frame Listener... m_elapsed: 0.0539998  m_update:0.0166667
+22:17:42:    Newton updates this loop: 3
+22:17:42:    Newton Frame Listener... m_elapsed: 0.0459998  m_update:0.0166667
+22:17:42:    Newton updates this loop: 2
+22:17:42:    Newton Frame Listener... m_elapsed: 0.0526665  m_update:0.0166667
+22:17:42:    Newton updates this loop: 3
+22:17:42:    Newton Frame Listener... m_elapsed: 0.0436665  m_update:0.0166667
+22:17:42:    Newton updates this loop: 2
+22:17:42:    Newton Frame Listener... m_elapsed: 0.0493332  m_update:0.0166667
+22:17:42:    Newton updates this loop: 2
+22:17:42:    Newton Frame Listener... m_elapsed: 0.0559998  m_update:0.0166667
+22:17:42:    Newton updates this loop: 3
+22:17:42:    Newton Frame Listener... m_elapsed: 0.0459998  m_update:0.0166667
+22:17:42:    Newton updates this loop: 2
+22:17:42:    Newton Frame Listener... m_elapsed: 0.0536665  m_update:0.0166667
+22:17:42:    Newton updates this loop: 3
+22:17:42:    Newton Frame Listener... m_elapsed: 0.0436665  m_update:0.0166667
+22:17:42:    Newton updates this loop: 2
+22:17:42:    Newton Frame Listener... m_elapsed: 0.0493331  m_update:0.0166667
+22:17:42:    Newton updates this loop: 2
+22:17:42:    Newton Frame Listener... m_elapsed: 0.0969998  m_update:0.0166667
+22:17:42:    Newton updates this loop: 5
+22:17:42:    Newton Frame Listener... m_elapsed: 0.0556665  m_update:0.0166667
+22:17:42:    Newton updates this loop: 3
+22:17:42:    Newton Frame Listener... m_elapsed: 0.0436665  m_update:0.0166667
+22:17:42:    Newton updates this loop: 2
+22:17:42:    Newton Frame Listener... m_elapsed: 0.0503331  m_update:0.0166667
+22:17:42:    Newton updates this loop: 3
+22:17:42:    Newton Frame Listener... m_elapsed: 0.0443331  m_update:0.0166667
+22:17:42:    Newton updates this loop: 2
+22:17:43:    Newton Frame Listener... m_elapsed: 0.0489998  m_update:0.0166667
+22:17:43:    Newton updates this loop: 2
+22:17:43:    Newton Frame Listener... m_elapsed: 0.0536665  m_update:0.0166667
+22:17:43:    Newton updates this loop: 3
+22:17:43:    Newton Frame Listener... m_elapsed: 0.0796665  m_update:0.0166667
+22:17:43:    Newton updates this loop: 4
+22:17:43:    Newton Frame Listener... m_elapsed: 0.0549998  m_update:0.0166667
+22:17:43:    Newton updates this loop: 3
+22:17:43:    Newton Frame Listener... m_elapsed: 0.0479998  m_update:0.0166667
+22:17:43:    Newton updates this loop: 2
+22:17:43:    Newton Frame Listener... m_elapsed: 0.0536665  m_update:0.0166667
+22:17:43:    Newton updates this loop: 3
+22:17:43:    Newton Frame Listener... m_elapsed: 0.0436664  m_update:0.0166667
+22:17:43:    Newton updates this loop: 2
+22:17:43:    Newton Frame Listener... m_elapsed: 0.0523331  m_update:0.0166667
+22:17:43:    Newton updates this loop: 3
+22:17:43:    Newton Frame Listener... m_elapsed: 0.0413331  m_update:0.0166667
+22:17:43:    Newton updates this loop: 2
+22:17:43:    Newton Frame Listener... m_elapsed: 0.0479998  m_update:0.0166667
+22:17:43:    Newton updates this loop: 2
+22:17:43:    Newton Frame Listener... m_elapsed: 0.0566664  m_update:0.0166667
+22:17:43:    Newton updates this loop: 3
+22:17:43:    Newton Frame Listener... m_elapsed: 0.0476664  m_update:0.0166667
+22:17:43:    Newton updates this loop: 2
+22:17:43:    Newton Frame Listener... m_elapsed: 0.0513331  m_update:0.0166667
+22:17:43:    Newton updates this loop: 3
+22:17:43:    Newton Frame Listener... m_elapsed: 0.0413331  m_update:0.0166667
+22:17:43:    Newton updates this loop: 2
+22:17:43:    Newton Frame Listener... m_elapsed: 0.0479998  m_update:0.0166667
+22:17:43:    Newton updates this loop: 2
+22:17:43:    Newton Frame Listener... m_elapsed: 0.0546664  m_update:0.0166667
+22:17:43:    Newton updates this loop: 3
+22:17:43:    Newton Frame Listener... m_elapsed: 0.0866664  m_update:0.0166667
+22:17:43:    Newton updates this loop: 5
+22:17:43:    Newton Frame Listener... m_elapsed: 0.0763331  m_update:0.0166667
+22:17:43:    Newton updates this loop: 4
+22:17:43:    Newton Frame Listener... m_elapsed: 0.0646664  m_update:0.0166667
+22:17:43:    Newton updates this loop: 3
+22:17:43:    Newton Frame Listener... m_elapsed: 0.0496664  m_update:0.0166667
+22:17:43:    Newton updates this loop: 2
+22:17:43:    Newton Frame Listener... m_elapsed: 0.0513331  m_update:0.0166667
+22:17:43:    Newton updates this loop: 3
+22:17:43:    Newton Frame Listener... m_elapsed: 0.0423331  m_update:0.0166667
+22:17:43:    Newton updates this loop: 2
+22:17:44:    Newton Frame Listener... m_elapsed: 0.0489998  m_update:0.0166667
+22:17:44:    Newton updates this loop: 2
+22:17:44:    Newton Frame Listener... m_elapsed: 0.0546664  m_update:0.0166667
+22:17:44:    Newton updates this loop: 3
+22:17:44:    Newton Frame Listener... m_elapsed: 0.0466664  m_update:0.0166667
+22:17:44:    Newton updates this loop: 2
+22:17:44:    Newton Frame Listener... m_elapsed: 0.0523331  m_update:0.0166667
+22:17:44:    Newton updates this loop: 3
+22:17:44:    Newton Frame Listener... m_elapsed: 0.0453331  m_update:0.0166667
+22:17:44:    Newton updates this loop: 2
+22:17:44:    Newton Frame Listener... m_elapsed: 0.0489998  m_update:0.0166667
+22:17:44:    Newton updates this loop: 2
+22:17:44:    Newton Frame Listener... m_elapsed: 0.0566664  m_update:0.0166667
+22:17:44:    Newton updates this loop: 3
+22:17:44:    Newton Frame Listener... m_elapsed: 0.0466664  m_update:0.0166667
+22:17:44:    Newton updates this loop: 2
+22:17:44:    Newton Frame Listener... m_elapsed: 0.0533331  m_update:0.0166667
+22:17:44:    Newton updates this loop: 3
+22:17:44:    Newton Frame Listener... m_elapsed: 0.0443331  m_update:0.0166667
+22:17:44:    Newton updates this loop: 2
+22:17:44:    Newton Frame Listener... m_elapsed: 0.0489998  m_update:0.0166667
+22:17:44:    Newton updates this loop: 2
+22:17:44:    Newton Frame Listener... m_elapsed: 0.0566664  m_update:0.0166667
+22:17:44:    Newton updates this loop: 3
+22:17:44:    Newton Frame Listener... m_elapsed: 0.0476664  m_update:0.0166667
+22:17:44:    Newton updates this loop: 2
+22:17:44:    Newton Frame Listener... m_elapsed: 0.0543331  m_update:0.0166667
+22:17:44:    Newton updates this loop: 3
+22:17:44:    Newton Frame Listener... m_elapsed: 0.0433331  m_update:0.0166667
+22:17:44:    Newton updates this loop: 2
+22:17:44:    Newton Frame Listener... m_elapsed: 0.0859997  m_update:0.0166667
+22:17:44:    Newton updates this loop: 5
+22:17:44:    Newton Frame Listener... m_elapsed: 0.0446664  m_update:0.0166667
+22:17:44:    Newton updates this loop: 2
+22:17:44:    Newton Frame Listener... m_elapsed: 0.0533331  m_update:0.0166667
+22:17:44:    Newton updates this loop: 3
+22:17:44:    Newton Frame Listener... m_elapsed: 0.0423331  m_update:0.0166667
+22:17:44:    Newton updates this loop: 2
+22:17:44:    Newton Frame Listener... m_elapsed: 0.0879997  m_update:0.0166667
+22:17:44:    Newton updates this loop: 5
+22:17:44:    Newton Frame Listener... m_elapsed: 0.0476664  m_update:0.0166667
+22:17:44:    Newton updates this loop: 2
+22:17:44:    Newton Frame Listener... m_elapsed: 0.0533331  m_update:0.0166667
+22:17:44:    Newton updates this loop: 3
+22:17:45:    Newton Frame Listener... m_elapsed: 0.0793331  m_update:0.0166667
+22:17:45:    Newton updates this loop: 4
+22:17:45:    Newton Frame Listener... m_elapsed: 0.0566664  m_update:0.0166667
+22:17:45:    Newton updates this loop: 3
+22:17:45:    Newton Frame Listener... m_elapsed: 0.0826664  m_update:0.0166667
+22:17:45:    Newton updates this loop: 4
+22:17:45:    Newton Frame Listener... m_elapsed: 0.0589997  m_update:0.0166667
+22:17:45:    Newton updates this loop: 3
+22:17:45:    Newton Frame Listener... m_elapsed: 0.0509997  m_update:0.0166667
+22:17:45:    Newton updates this loop: 3
+22:17:45:    Newton Frame Listener... m_elapsed: 0.0409997  m_update:0.0166667
+22:17:45:    Newton updates this loop: 2
+22:17:45:    Newton Frame Listener... m_elapsed: 0.0476664  m_update:0.0166667
+22:17:45:    Newton updates this loop: 2
+22:17:45:    Newton Frame Listener... m_elapsed: 0.0553331  m_update:0.0166667
+22:17:45:    Newton updates this loop: 3
+22:17:45:    Newton Frame Listener... m_elapsed: 0.0443331  m_update:0.0166667
+22:17:45:    Newton updates this loop: 2
+22:17:45:    Newton Frame Listener... m_elapsed: 0.0529997  m_update:0.0166667
+22:17:45:    Newton updates this loop: 3
+22:17:45:    Newton Frame Listener... m_elapsed: 0.0759997  m_update:0.0166667
+22:17:45:    Newton updates this loop: 4
+22:17:45:    Newton Frame Listener... m_elapsed: 0.0923331  m_update:0.0166667
+22:17:45:    Newton updates this loop: 5
+22:17:45:    Newton Frame Listener... m_elapsed: 0.0519997  m_update:0.0166667
+22:17:45:    Newton updates this loop: 3
+22:17:45:    Newton Frame Listener... m_elapsed: 0.0409997  m_update:0.0166667
+22:17:45:    Newton updates this loop: 2
+22:17:45:    Newton Frame Listener... m_elapsed: 0.0486664  m_update:0.0166667
+22:17:45:    Newton updates this loop: 2
+22:17:45:    Newton Frame Listener... m_elapsed: 0.0913331  m_update:0.0166667
+22:17:45:    Newton updates this loop: 5
+22:17:45:    Newton Frame Listener... m_elapsed: 0.0519997  m_update:0.0166667
+22:17:45:    Newton updates this loop: 3
+22:17:45:    Newton Frame Listener... m_elapsed: 0.0439997  m_update:0.0166667
+22:17:45:    Newton updates this loop: 2
+22:17:45:    Newton Frame Listener... m_elapsed: 0.0486664  m_update:0.0166667
+22:17:45:    Newton updates this loop: 2
+22:17:45:    Newton Frame Listener... m_elapsed: 0.0553331  m_update:0.0166667
+22:17:45:    Newton updates this loop: 3
+22:17:45:    Newton Frame Listener... m_elapsed: 0.0463331  m_update:0.0166667
+22:17:46:    Newton updates this loop: 2
+22:17:46:    Newton Frame Listener... m_elapsed: 0.0519997  m_update:0.0166667
+22:17:46:    Newton updates this loop: 3
+22:17:46:    Newton Frame Listener... m_elapsed: 0.0419997  m_update:0.0166667
+22:17:46:    Newton updates this loop: 2
+22:17:46:    Newton Frame Listener... m_elapsed: 0.0526664  m_update:0.0166667
+22:17:46:    Newton updates this loop: 3
+22:17:46:    Newton Frame Listener... m_elapsed: 0.0756664  m_update:0.0166667
+22:17:46:    Newton updates this loop: 4
+22:17:46:    Newton Frame Listener... m_elapsed: 0.0509997  m_update:0.0166667
+22:17:46:    Newton updates this loop: 3
+22:17:46:    Newton Frame Listener... m_elapsed: 0.0439997  m_update:0.0166667
+22:17:46:    Newton updates this loop: 2
+22:17:46:    Newton Frame Listener... m_elapsed: 0.0496664  m_update:0.0166667
+22:17:46:    Newton updates this loop: 2
+22:17:46:    Newton Frame Listener... m_elapsed: 0.058333  m_update:0.0166667
+22:17:46:    Newton updates this loop: 3
+22:17:46:    Newton Frame Listener... m_elapsed: 0.046333  m_update:0.0166667
+22:17:46:    Newton updates this loop: 2
+22:17:46:    Newton Frame Listener... m_elapsed: 0.0549997  m_update:0.0166667
+22:17:46:    Newton updates this loop: 3
+22:17:46:    Newton Frame Listener... m_elapsed: 0.0799997  m_update:0.0166667
+22:17:46:    Newton updates this loop: 4
+22:17:46:    Newton Frame Listener... m_elapsed: 0.057333  m_update:0.0166667
+22:17:46:    Newton updates this loop: 3
+22:17:46:    Newton Frame Listener... m_elapsed: 0.047333  m_update:0.0166667
+22:17:46:    Newton updates this loop: 2
+22:17:46:    Newton Frame Listener... m_elapsed: 0.0549997  m_update:0.0166667
+22:17:46:    Newton updates this loop: 3
+22:17:46:    Newton Frame Listener... m_elapsed: 0.0789997  m_update:0.0166667
+22:17:46:    Newton updates this loop: 4
+22:17:46:    Newton Frame Listener... m_elapsed: 0.055333  m_update:0.0166667
+22:17:46:    Newton updates this loop: 3
+22:17:46:    Newton Frame Listener... m_elapsed: 0.049333  m_update:0.0166667
+22:17:46:    Newton updates this loop: 2
+22:17:46:    Newton Frame Listener... m_elapsed: 0.0549997  m_update:0.0166667
+22:17:46:    Newton updates this loop: 3
+22:17:46:    Newton Frame Listener... m_elapsed: 0.0449997  m_update:0.0166667
+22:17:46:    Newton updates this loop: 2
+22:17:46:    Newton Frame Listener... m_elapsed: 0.0506664  m_update:0.0166667
+22:17:46:    Newton updates this loop: 3
+22:17:46:    Newton Frame Listener... m_elapsed: 0.0406664  m_update:0.0166667
+22:17:46:    Newton updates this loop: 2
+22:17:46:    Newton Frame Listener... m_elapsed: 0.048333  m_update:0.0166667
+22:17:47:    Newton updates this loop: 2
+22:17:47:    Newton Frame Listener... m_elapsed: 0.0539997  m_update:0.0166667
+22:17:47:    Newton updates this loop: 3
+22:17:47:    Newton Frame Listener... m_elapsed: 0.0449997  m_update:0.0166667
+22:17:47:    Newton updates this loop: 2
+22:17:47:    Newton Frame Listener... m_elapsed: 0.0526664  m_update:0.0166667
+22:17:47:    Newton updates this loop: 3
+22:17:47:    Newton Frame Listener... m_elapsed: 0.0406664  m_update:0.0166667
+22:17:47:    Newton updates this loop: 2
+22:17:47:    Newton Frame Listener... m_elapsed: 0.047333  m_update:0.0166667
+22:17:47:    Newton updates this loop: 2
+22:17:47:    Newton Frame Listener... m_elapsed: 0.0549997  m_update:0.0166667
+22:17:47:    Newton updates this loop: 3
+22:17:47:    Newton Frame Listener... m_elapsed: 0.0489997  m_update:0.0166667
+22:17:47:    Newton updates this loop: 2
+22:17:47:    Newton Frame Listener... m_elapsed: 0.0536664  m_update:0.0166667
+22:17:47:    Newton updates this loop: 3
+22:17:47:    Newton Frame Listener... m_elapsed: 0.0446664  m_update:0.0166667
+22:17:47:    Newton updates this loop: 2
+22:17:47:    Newton Frame Listener... m_elapsed: 0.086333  m_update:0.0166667
+22:17:47:    Newton updates this loop: 5
+22:17:47:    Newton Frame Listener... m_elapsed: 0.0459997  m_update:0.0166667
+22:17:47:    Newton updates this loop: 2
+22:17:47:    Newton Frame Listener... m_elapsed: 0.0536664  m_update:0.0166667
+22:17:47:    Newton updates this loop: 3
+22:17:47:    Newton Frame Listener... m_elapsed: 0.0416664  m_update:0.0166667
+22:17:47:    Newton updates this loop: 2
+22:17:47:    Newton Frame Listener... m_elapsed: 0.091333  m_update:0.0166667
+22:17:47:    Newton updates this loop: 5
+22:17:47:    Newton Frame Listener... m_elapsed: 0.0459997  m_update:0.0166667
+22:17:47:    Newton updates this loop: 2
+22:17:47:    Newton Frame Listener... m_elapsed: 0.0516663  m_update:0.0166667
+22:17:47:    Newton updates this loop: 3
+22:17:47:    Newton Frame Listener... m_elapsed: 0.0456663  m_update:0.0166667
+22:17:47:    Newton updates this loop: 2
+22:17:47:    Newton Frame Listener... m_elapsed: 0.048333  m_update:0.0166667
+22:17:47:    Newton updates this loop: 2
+22:17:47:    Newton Frame Listener... m_elapsed: 0.0549997  m_update:0.0166667
+22:17:47:    Newton updates this loop: 3
+22:17:47:    Newton Frame Listener... m_elapsed: 0.0469997  m_update:0.0166667
+22:17:47:    Newton updates this loop: 2
+22:17:47:    Newton Frame Listener... m_elapsed: 0.0526663  m_update:0.0166667
+22:17:47:    Newton updates this loop: 3
+22:17:47:    Newton Frame Listener... m_elapsed: 0.0416663  m_update:0.0166667
+22:17:47:    Newton updates this loop: 2
+22:17:47:    Newton Frame Listener... m_elapsed: 0.049333  m_update:0.0166667
+22:17:48:    Newton updates this loop: 2
+22:17:48:    Newton Frame Listener... m_elapsed: 0.0919997  m_update:0.0166667
+22:17:48:    Newton updates this loop: 5
+22:17:48:    Newton Frame Listener... m_elapsed: 0.0566663  m_update:0.0166667
+22:17:48:    Newton updates this loop: 3
+22:17:48:    Newton Frame Listener... m_elapsed: 0.0456663  m_update:0.0166667
+22:17:48:    Newton updates this loop: 2
+22:17:48:    Newton Frame Listener... m_elapsed: 0.049333  m_update:0.0166667
+22:17:48:    Newton updates this loop: 2
+22:17:48:    Newton Frame Listener... m_elapsed: 0.0559997  m_update:0.0166667
+22:17:48:    Newton updates this loop: 3
+22:17:48:    Newton Frame Listener... m_elapsed: 0.0459997  m_update:0.0166667
+22:17:48:    Newton updates this loop: 2
+22:17:48:    Newton Frame Listener... m_elapsed: 0.0886663  m_update:0.0166667
+22:17:48:    Newton updates this loop: 5
+22:17:48:    Newton Frame Listener... m_elapsed: 0.049333  m_update:0.0166667
+22:17:48:    Newton updates this loop: 2
+22:17:48:    Newton Frame Listener... m_elapsed: 0.0559997  m_update:0.0166667
+22:17:48:    Newton updates this loop: 3
+22:17:48:    Newton Frame Listener... m_elapsed: 0.0459997  m_update:0.0166667
+22:17:48:    Newton updates this loop: 2
+22:17:48:    Newton Frame Listener... m_elapsed: 0.0896663  m_update:0.0166667
+22:17:48:    Newton updates this loop: 5
+22:17:48:    Newton Frame Listener... m_elapsed: 0.050333  m_update:0.0166667
+22:17:48:    Newton updates this loop: 3
+22:17:48:    Newton Frame Listener... m_elapsed: 0.040333  m_update:0.0166667
+22:17:48:    Newton updates this loop: 2
+22:17:48:    Newton Frame Listener... m_elapsed: 0.0809997  m_update:0.0166667
+22:17:48:    Newton updates this loop: 4
+22:17:48:    Newton Frame Listener... m_elapsed: 0.060333  m_update:0.0166667
+22:17:48:    Newton updates this loop: 3
+22:17:48:    Newton Frame Listener... m_elapsed: 0.050333  m_update:0.0166667
+22:17:48:    Newton updates this loop: 3
+22:17:48:    Newton Frame Listener... m_elapsed: 0.075333  m_update:0.0166667
+22:17:48:    Newton updates this loop: 4
+22:17:48:    Newton Frame Listener... m_elapsed: 0.0546663  m_update:0.0166667
+22:17:48:    Newton updates this loop: 3
+22:17:48:    Newton Frame Listener... m_elapsed: 0.0446663  m_update:0.0166667
+22:17:48:    Newton updates this loop: 2
+22:17:48:    Newton Frame Listener... m_elapsed: 0.050333  m_update:0.0166667
+22:17:49:    Newton updates this loop: 3
+22:17:49:    Newton Frame Listener... m_elapsed: 0.041333  m_update:0.0166667
+22:17:49:    Newton updates this loop: 2
+22:17:49:    Newton Frame Listener... m_elapsed: 0.0479996  m_update:0.0166667
+22:17:49:    Newton updates this loop: 2
+22:17:49:    Newton Frame Listener... m_elapsed: 0.0536663  m_update:0.0166667
+22:17:49:    Newton updates this loop: 3
+22:17:49:    Newton Frame Listener... m_elapsed: 0.0446663  m_update:0.0166667
+22:17:49:    Newton updates this loop: 2
+22:17:49:    Newton Frame Listener... m_elapsed: 0.051333  m_update:0.0166667
+22:17:49:    Newton updates this loop: 3
+22:17:49:    Newton Frame Listener... m_elapsed: 0.078333  m_update:0.0166667
+22:17:49:    Newton updates this loop: 4
+22:17:49:    Newton Frame Listener... m_elapsed: 0.0546663  m_update:0.0166667
+22:17:49:    Newton updates this loop: 3
+22:17:49:    Newton Frame Listener... m_elapsed: 0.0816663  m_update:0.0166667
+22:17:49:    Newton updates this loop: 4
+22:17:49:    Newton Frame Listener... m_elapsed: 0.0989996  m_update:0.0166667
+22:17:49:    Newton updates this loop: 5
+22:17:49:    Newton Frame Listener... m_elapsed: 0.0546663  m_update:0.0166667
+22:17:49:    Newton updates this loop: 3
+22:17:49:    Newton Frame Listener... m_elapsed: 0.0806663  m_update:0.0166667
+22:17:49:    Newton updates this loop: 4
+22:17:49:    Newton Frame Listener... m_elapsed: 0.0579996  m_update:0.0166667
+22:17:49:    Newton updates this loop: 3
+22:17:49:    Newton Frame Listener... m_elapsed: 0.0479996  m_update:0.0166667
+22:17:49:    Newton updates this loop: 2
+22:17:49:    Newton Frame Listener... m_elapsed: 0.0546663  m_update:0.0166667
+22:17:49:    Newton updates this loop: 3
+22:17:49:    Newton Frame Listener... m_elapsed: 0.0446663  m_update:0.0166667
+22:17:49:    Newton updates this loop: 2
+22:17:49:    Newton Frame Listener... m_elapsed: 0.052333  m_update:0.0166667
+22:17:49:    Newton updates this loop: 3
+22:17:49:    Newton Frame Listener... m_elapsed: 0.044333  m_update:0.0166667
+22:17:49:    Newton updates this loop: 2
+22:17:49:    Newton Frame Listener... m_elapsed: 0.0479996  m_update:0.0166667
+22:17:49:    Newton updates this loop: 2
+22:17:49:    Newton Frame Listener... m_elapsed: 0.0556663  m_update:0.0166667
+22:17:49:    Newton updates this loop: 3
+22:17:49:    Newton Frame Listener... m_elapsed: 0.0456663  m_update:0.0166667
+22:17:49:    Newton updates this loop: 2
+22:17:49:    Newton Frame Listener... m_elapsed: 0.060333  m_update:0.0166667
+22:17:50:    Newton updates this loop: 3
+22:17:50:    Newton Frame Listener... m_elapsed: 0.042333  m_update:0.0166667
+22:17:50:    Newton updates this loop: 2
+22:17:50:    Newton Frame Listener... m_elapsed: 0.0489996  m_update:0.0166667
+22:17:50:    Newton updates this loop: 2
+22:17:50:    Newton Frame Listener... m_elapsed: 0.0556663  m_update:0.0166667
+22:17:50:    Newton updates this loop: 3
+22:17:50:    Newton Frame Listener... m_elapsed: 0.0816663  m_update:0.0166667
+22:17:50:    Newton updates this loop: 4
+22:17:50:    Newton Frame Listener... m_elapsed: 0.0569996  m_update:0.0166667
+22:17:50:    Newton updates this loop: 3
+22:17:50:    Newton Frame Listener... m_elapsed: 0.0489996  m_update:0.0166667
+22:17:50:    Newton updates this loop: 2
+22:17:50:    Newton Frame Listener... m_elapsed: 0.0566663  m_update:0.0166667
+22:17:50:    Newton updates this loop: 3
+22:17:50:    Newton Frame Listener... m_elapsed: 0.0826663  m_update:0.0166667
+22:17:50:    Newton updates this loop: 4
+22:17:50:    Newton Frame Listener... m_elapsed: 0.0579996  m_update:0.0166667
+22:17:50:    Newton updates this loop: 3
+22:17:50:    Newton Frame Listener... m_elapsed: 0.0489996  m_update:0.0166667
+22:17:50:    Newton updates this loop: 2
+22:17:50:    Newton Frame Listener... m_elapsed: 0.0576663  m_update:0.0166667
+22:17:50:    Newton updates this loop: 3
+22:17:50:    Newton Frame Listener... m_elapsed: 0.0476663  m_update:0.0166667
+22:17:50:    Newton updates this loop: 2
+22:17:50:    Newton Frame Listener... m_elapsed: 0.0533329  m_update:0.0166667
+22:17:50:    Newton updates this loop: 3
+22:17:50:    Newton Frame Listener... m_elapsed: 0.0433329  m_update:0.0166667
+22:17:50:    Newton updates this loop: 2
+22:17:50:    Newton Frame Listener... m_elapsed: 0.0499996  m_update:0.0166667
+22:17:50:    Newton updates this loop: 2
+22:17:50:    Newton Frame Listener... m_elapsed: 0.0556663  m_update:0.0166667
+22:17:50:    Newton updates this loop: 3
+22:17:50:    Newton Frame Listener... m_elapsed: 0.0466663  m_update:0.0166667
+22:17:50:    Newton updates this loop: 2
+22:17:50:    Newton Frame Listener... m_elapsed: 0.0533329  m_update:0.0166667
+22:17:50:    Newton updates this loop: 3
+22:17:50:    Newton Frame Listener... m_elapsed: 0.0453329  m_update:0.0166667
+22:17:50:    Newton updates this loop: 2
+22:17:50:    Newton Frame Listener... m_elapsed: 0.0889996  m_update:0.0166667
+22:17:50:    Newton updates this loop: 5
+22:17:50:    Newton Frame Listener... m_elapsed: 0.0506663  m_update:0.0166667
+22:17:50:    Newton updates this loop: 3
+22:17:50:    Newton Frame Listener... m_elapsed: 0.0386662  m_update:0.0166667
+22:17:51:    Newton updates this loop: 2
+22:17:51:    Newton Frame Listener... m_elapsed: 0.0453329  m_update:0.0166667
+22:17:51:    Newton updates this loop: 2
+22:17:51:    Newton Frame Listener... m_elapsed: 0.0879996  m_update:0.0166667
+22:17:51:    Newton updates this loop: 5
+22:17:51:    Newton Frame Listener... m_elapsed: 0.0476662  m_update:0.0166667
+22:17:51:    Newton updates this loop: 2
+22:17:51:    Newton Frame Listener... m_elapsed: 0.0553329  m_update:0.0166667
+22:17:51:    Newton updates this loop: 3
+22:17:51:    Newton Frame Listener... m_elapsed: 0.0453329  m_update:0.0166667
+22:17:51:    Newton updates this loop: 2
+22:17:51:    Newton Frame Listener... m_elapsed: 0.0559996  m_update:0.0166667
+22:17:51:    Newton updates this loop: 3
+22:17:51:    Newton Frame Listener... m_elapsed: 0.0399996  m_update:0.0166667
+22:17:51:    Newton updates this loop: 2
+22:17:51:    Newton Frame Listener... m_elapsed: 0.0486662  m_update:0.0166667
+22:17:51:    Newton updates this loop: 2
+22:17:51:    Newton Frame Listener... m_elapsed: 0.0533329  m_update:0.0166667
+22:17:51:    Newton updates this loop: 3
+22:17:51:    Newton Frame Listener... m_elapsed: 0.0433329  m_update:0.0166667
+22:17:51:    Newton updates this loop: 2
+22:17:51:    Newton Frame Listener... m_elapsed: 0.0499996  m_update:0.0166667
+22:17:51:    Newton updates this loop: 2
+22:17:51:    Newton Frame Listener... m_elapsed: 0.0576662  m_update:0.0166667
+22:17:51:    Newton updates this loop: 3
+22:17:51:    Newton Frame Listener... m_elapsed: 0.0816662  m_update:0.0166667
+22:17:51:    Newton updates this loop: 4
+22:17:51:    Newton Frame Listener... m_elapsed: 0.0609996  m_update:0.0166667
+22:17:51:    Newton updates this loop: 3
+22:17:51:    Newton Frame Listener... m_elapsed: 0.0499996  m_update:0.0166667
+22:17:51:    Newton updates this loop: 2
+22:17:51:    Newton Frame Listener... m_elapsed: 0.0606662  m_update:0.0166667
+22:17:51:    Newton updates this loop: 3
+22:17:51:    Newton Frame Listener... m_elapsed: 0.0476662  m_update:0.0166667
+22:17:51:    Newton updates this loop: 2
+22:17:51:    Newton Frame Listener... m_elapsed: 0.0583329  m_update:0.0166667
+22:17:51:    Newton updates this loop: 3
+22:17:51:    Newton Frame Listener... m_elapsed: 0.0443329  m_update:0.0166667
+22:17:51:    Newton updates this loop: 2
+22:17:51:    Newton Frame Listener... m_elapsed: 0.0509996  m_update:0.0166667
+22:17:51:    Newton updates this loop: 3
+22:17:51:    Newton Frame Listener... m_elapsed: 0.0419996  m_update:0.0166667
+22:17:51:    Newton updates this loop: 2
+22:17:51:    Newton Frame Listener... m_elapsed: 0.0476662  m_update:0.0166667
+22:17:51:    Newton updates this loop: 2
+22:17:52:    Newton Frame Listener... m_elapsed: 0.0923329  m_update:0.0166667
+22:17:52:    Newton updates this loop: 5
+22:17:52:    Newton Frame Listener... m_elapsed: 0.0509996  m_update:0.0166667
+22:17:52:    Newton updates this loop: 3
+22:17:52:    Newton Frame Listener... m_elapsed: 0.0789996  m_update:0.0166667
+22:17:52:    Newton updates this loop: 4
+22:17:52:    Newton Frame Listener... m_elapsed: 0.0593329  m_update:0.0166667
+22:17:52:    Newton updates this loop: 3
+22:17:52:    Newton Frame Listener... m_elapsed: 0.0453329  m_update:0.0166667
+22:17:52:    Newton updates this loop: 2
+22:17:52:    Newton Frame Listener... m_elapsed: 0.0519996  m_update:0.0166667
+22:17:52:    Newton updates this loop: 3
+22:17:52:    Newton Frame Listener... m_elapsed: 0.0419996  m_update:0.0166667
+22:17:52:    Newton updates this loop: 2
+22:17:52:    Newton Frame Listener... m_elapsed: 0.0486662  m_update:0.0166667
+22:17:52:    Newton updates this loop: 2
+22:17:52:    Newton Frame Listener... m_elapsed: 0.0543329  m_update:0.0166667
+22:17:52:    Newton updates this loop: 3
+22:17:52:    Newton Frame Listener... m_elapsed: 0.0443329  m_update:0.0166667
+22:17:52:    Newton updates this loop: 2
+22:17:52:    Newton Frame Listener... m_elapsed: 0.0519995  m_update:0.0166667
+22:17:52:    Newton updates this loop: 3
+22:17:52:    Newton Frame Listener... m_elapsed: 0.0419995  m_update:0.0166667
+22:17:52:    Newton updates this loop: 2
+22:17:52:    Newton Frame Listener... m_elapsed: 0.0516662  m_update:0.0166667
+22:17:52:    Newton updates this loop: 3
+22:17:52:    Newton Frame Listener... m_elapsed: 0.0416662  m_update:0.0166667
+22:17:52:    Newton updates this loop: 2
+22:17:52:    Newton Frame Listener... m_elapsed: 0.0453329  m_update:0.0166667
+22:17:52:    Newton updates this loop: 2
+22:17:52:    Newton Frame Listener... m_elapsed: 0.0519995  m_update:0.0166667
+22:17:52:    Newton updates this loop: 3
+22:17:52:    Newton Frame Listener... m_elapsed: 0.118  m_update:0.0166667
+22:17:52:    Newton updates this loop: 7
+22:17:52:    Newton Frame Listener... m_elapsed: 0.0443329  m_update:0.0166667
+22:17:52:    Newton updates this loop: 2
+22:17:52:    Newton Frame Listener... m_elapsed: 0.0549995  m_update:0.0166667
+22:17:52:    Newton updates this loop: 3
+22:17:52:    Newton Frame Listener... m_elapsed: 0.0789995  m_update:0.0166667
+22:17:52:    Newton updates this loop: 4
+22:17:52:    Newton Frame Listener... m_elapsed: 0.0593329  m_update:0.0166667
+22:17:53:    Newton updates this loop: 3
+22:17:53:    Newton Frame Listener... m_elapsed: 0.0453328  m_update:0.0166667
+22:17:53:    Newton updates this loop: 2
+22:17:53:    Newton Frame Listener... m_elapsed: 0.0529995  m_update:0.0166667
+22:17:53:    Newton updates this loop: 3
+22:17:53:    Newton Frame Listener... m_elapsed: 0.0779995  m_update:0.0166667
+22:17:53:    Newton updates this loop: 4
+22:17:53:    Newton Frame Listener... m_elapsed: 0.0563329  m_update:0.0166667
+22:17:53:    Newton updates this loop: 3
+22:17:53:    Newton Frame Listener... m_elapsed: 0.0463328  m_update:0.0166667
+22:17:53:    Newton updates this loop: 2
+22:17:53:    Newton Frame Listener... m_elapsed: 0.0539995  m_update:0.0166667
+22:17:53:    Newton updates this loop: 3
+22:17:53:    Newton Frame Listener... m_elapsed: 0.0429995  m_update:0.0166667
+22:17:53:    Newton updates this loop: 2
+22:17:53:    Newton Frame Listener... m_elapsed: 0.0496662  m_update:0.0166667
+22:17:53:    Newton updates this loop: 2
+22:17:53:    Newton Frame Listener... m_elapsed: 0.0563328  m_update:0.0166667
+22:17:53:    Newton updates this loop: 3
+22:17:53:    Newton Frame Listener... m_elapsed: 0.0843328  m_update:0.0166667
+22:17:53:    Newton updates this loop: 5
+22:17:53:    Newton Frame Listener... m_elapsed: 0.0469995  m_update:0.0166667
+22:17:53:    Newton updates this loop: 2
+22:17:53:    Newton Frame Listener... m_elapsed: 0.0516662  m_update:0.0166667
+22:17:53:    Newton updates this loop: 3
+22:17:53:    Newton Frame Listener... m_elapsed: 0.0406662  m_update:0.0166667
+22:17:53:    Newton updates this loop: 2
+22:17:53:    Newton Frame Listener... m_elapsed: 0.0493328  m_update:0.0166667
+22:17:53:    Newton updates this loop: 2
+22:17:53:    Newton Frame Listener... m_elapsed: 0.0539995  m_update:0.0166667
+22:17:53:    Newton updates this loop: 3
+22:17:53:    Newton Frame Listener... m_elapsed: 0.0439995  m_update:0.0166667
+22:17:53:    Newton updates this loop: 2
+22:17:53:    Newton Frame Listener... m_elapsed: 0.0496662  m_update:0.0166667
+22:17:53:    Newton updates this loop: 2
+22:17:53:    Newton Frame Listener... m_elapsed: 0.0573328  m_update:0.0166667
+22:17:53:    Newton updates this loop: 3
+22:17:53:    Newton Frame Listener... m_elapsed: 0.0823328  m_update:0.0166667
+22:17:53:    Newton updates this loop: 4
+22:17:53:    Newton Frame Listener... m_elapsed: 0.0616662  m_update:0.0166667
+22:17:53:    Newton updates this loop: 3
+22:17:53:    Newton Frame Listener... m_elapsed: 0.0506662  m_update:0.0166667
+22:17:53:    Newton updates this loop: 3
+22:17:53:    Newton Frame Listener... m_elapsed: 0.0406662  m_update:0.0166667
+22:17:54:    Newton updates this loop: 2
+22:17:54:    Newton Frame Listener... m_elapsed: 0.0823328  m_update:0.0166667
+22:17:54:    Newton updates this loop: 4
+22:17:54:    Newton Frame Listener... m_elapsed: 0.0566662  m_update:0.0166667
+22:17:54:    Newton updates this loop: 3
+22:17:54:    Newton Frame Listener... m_elapsed: 0.0506662  m_update:0.0166667
+22:17:54:    Newton updates this loop: 3
+22:17:54:    Newton Frame Listener... m_elapsed: 0.0406662  m_update:0.0166667
+22:17:54:    Newton updates this loop: 2
+22:17:54:    Newton Frame Listener... m_elapsed: 0.0853328  m_update:0.0166667
+22:17:54:    Newton updates this loop: 5
+22:17:54:    Newton Frame Listener... m_elapsed: 0.0459995  m_update:0.0166667
+22:17:54:    Newton updates this loop: 2
+22:17:54:    Newton Frame Listener... m_elapsed: 0.0516662  m_update:0.0166667
+22:17:54:    Newton updates this loop: 3
+22:17:54:    Newton Frame Listener... m_elapsed: 0.0406662  m_update:0.0166667
+22:17:54:    Newton updates this loop: 2
+22:17:54:    Newton Frame Listener... m_elapsed: 0.0493328  m_update:0.0166667
+22:17:54:    Newton updates this loop: 2
+22:17:54:    Newton Frame Listener... m_elapsed: 0.0549995  m_update:0.0166667
+22:17:54:    Newton updates this loop: 3
+22:17:54:    Newton Frame Listener... m_elapsed: 0.0469995  m_update:0.0166667
+22:17:54:    Newton updates this loop: 2
+22:17:54:    Newton Frame Listener... m_elapsed: 0.0896662  m_update:0.0166667
+22:17:54:    Newton updates this loop: 5
+22:17:54:    Newton Frame Listener... m_elapsed: 0.0513328  m_update:0.0166667
+22:17:54:    Newton updates this loop: 3
+22:17:54:    Newton Frame Listener... m_elapsed: 0.0413328  m_update:0.0166667
+22:17:54:    Newton updates this loop: 2
+22:17:54:    Newton Frame Listener... m_elapsed: 0.0879995  m_update:0.0166667
+22:17:54:    Newton updates this loop: 5
+22:17:54:    Newton Frame Listener... m_elapsed: 0.0426662  m_update:0.0166667
+22:17:54:    Newton updates this loop: 2
+22:17:54:    Newton Frame Listener... m_elapsed: 0.0493328  m_update:0.0166667
+22:17:54:    Newton updates this loop: 2
+22:17:54:    Newton Frame Listener... m_elapsed: 0.0569995  m_update:0.0166667
+22:17:54:    Newton updates this loop: 3
+22:17:54:    Newton Frame Listener... m_elapsed: 0.0469995  m_update:0.0166667
+22:17:54:    Newton updates this loop: 2
+22:17:54:    Newton Frame Listener... m_elapsed: 0.0576661  m_update:0.0166667
+22:17:54:    Newton updates this loop: 3
+22:17:55:    Newton Frame Listener... m_elapsed: 0.0786662  m_update:0.0166667
+22:17:55:    Newton updates this loop: 4
+22:17:55:    Newton Frame Listener... m_elapsed: 0.0549995  m_update:0.0166667
+22:17:55:    Newton updates this loop: 3
+22:17:55:    Newton Frame Listener... m_elapsed: 0.0479995  m_update:0.0166667
+22:17:55:    Newton updates this loop: 2
+22:17:55:    Newton Frame Listener... m_elapsed: 0.0536662  m_update:0.0166667
+22:17:55:    Newton updates this loop: 3
+22:17:55:    Newton Frame Listener... m_elapsed: 0.0436662  m_update:0.0166667
+22:17:55:    Newton updates this loop: 2
+22:17:55:    Newton Frame Listener... m_elapsed: 0.0503328  m_update:0.0166667
+22:17:55:    Newton updates this loop: 3
+22:17:55:    Newton Frame Listener... m_elapsed: 0.0403328  m_update:0.0166667
+22:17:55:    Newton updates this loop: 2
+22:17:55:    Newton Frame Listener... m_elapsed: 0.0839995  m_update:0.0166667
+22:17:55:    Newton updates this loop: 5
+22:17:55:    Newton Frame Listener... m_elapsed: 0.0426661  m_update:0.0166667
+22:17:55:    Newton updates this loop: 2
+22:17:55:    Newton Frame Listener... m_elapsed: 0.0503328  m_update:0.0166667
+22:17:55:    Newton updates this loop: 3
+22:17:55:    Newton Frame Listener... m_elapsed: 0.0443328  m_update:0.0166667
+22:17:55:    Newton updates this loop: 2
+22:17:55:    Newton Frame Listener... m_elapsed: 0.0489995  m_update:0.0166667
+22:17:55:    Newton updates this loop: 2
+22:17:55:    Newton Frame Listener... m_elapsed: 0.0556661  m_update:0.0166667
+22:17:55:    Newton updates this loop: 3
+22:17:55:    Newton Frame Listener... m_elapsed: 0.0466661  m_update:0.0166667
+22:17:55:    Newton updates this loop: 2
+22:17:55:    Newton Frame Listener... m_elapsed: 0.0513328  m_update:0.0166667
+22:17:55:    Newton updates this loop: 3
+22:17:55:    Newton Frame Listener... m_elapsed: 0.0773328  m_update:0.0166667
+22:17:55:    Newton updates this loop: 4
+22:17:55:    Newton Frame Listener... m_elapsed: 0.0526661  m_update:0.0166667
+22:17:55:    Newton updates this loop: 3
+22:17:55:    Newton Frame Listener... m_elapsed: 0.0446661  m_update:0.0166667
+22:17:55:    Newton updates this loop: 2
+22:17:55:    Newton Frame Listener... m_elapsed: 0.0533328  m_update:0.0166667
+22:17:55:    Newton updates this loop: 3
+22:17:55:    Newton Frame Listener... m_elapsed: 0.0473328  m_update:0.0166667
+22:17:55:    Newton updates this loop: 2
+22:17:55:    Newton Frame Listener... m_elapsed: 0.0489995  m_update:0.0166667
+22:17:55:    Newton updates this loop: 2
+22:17:55:    Newton Frame Listener... m_elapsed: 0.0546661  m_update:0.0166667
+22:17:55:    Newton updates this loop: 3
+22:17:55:    Newton Frame Listener... m_elapsed: 0.0456661  m_update:0.0166667
+22:17:56:    Newton updates this loop: 2
+22:17:56:    Newton Frame Listener... m_elapsed: 0.0523328  m_update:0.0166667
+22:17:56:    Newton updates this loop: 3
+22:17:56:    Newton Frame Listener... m_elapsed: 0.0523328  m_update:0.0166667
+22:17:56:    Newton updates this loop: 3
+22:17:56:    Newton Frame Listener... m_elapsed: 0.0713328  m_update:0.0166667
+22:17:56:    Newton updates this loop: 4
+22:17:56:    Newton Frame Listener... m_elapsed: 0.0466661  m_update:0.0166667
+22:17:56:    Newton updates this loop: 2
+22:17:56:    Newton Frame Listener... m_elapsed: 0.0533328  m_update:0.0166667
+22:17:56:    Newton updates this loop: 3
+22:17:56:    Newton Frame Listener... m_elapsed: 0.0443328  m_update:0.0166667
+22:17:56:    Newton updates this loop: 2
+22:17:56:    Newton Frame Listener... m_elapsed: 0.0499994  m_update:0.0166667
+22:17:56:    Newton updates this loop: 2
+22:17:56:    Newton Frame Listener... m_elapsed: 0.0556661  m_update:0.0166667
+22:17:56:    Newton updates this loop: 3
+22:17:56:    Newton Frame Listener... m_elapsed: 0.0456661  m_update:0.0166667
+22:17:56:    Newton updates this loop: 2
+22:17:56:    Newton Frame Listener... m_elapsed: 0.0533328  m_update:0.0166667
+22:17:56:    Newton updates this loop: 3
+22:17:56:    Newton Frame Listener... m_elapsed: 0.0433328  m_update:0.0166667
+22:17:56:    Newton updates this loop: 2
+22:17:56:    Newton Frame Listener... m_elapsed: 0.0509994  m_update:0.0166667
+22:17:56:    Newton updates this loop: 3
+22:17:56:    Newton Frame Listener... m_elapsed: 0.0399994  m_update:0.0166667
+22:17:56:    Newton updates this loop: 2
+22:17:56:    Newton Frame Listener... m_elapsed: 0.0826661  m_update:0.0166667
+22:17:56:    Newton updates this loop: 4
+22:17:56:    Newton Frame Listener... m_elapsed: 0.0599994  m_update:0.0166667
+22:17:56:    Newton updates this loop: 3
+22:17:56:    Newton Frame Listener... m_elapsed: 0.0499994  m_update:0.0166667
+22:17:56:    Newton updates this loop: 2
+22:17:56:    Newton Frame Listener... m_elapsed: 0.0566661  m_update:0.0166667
+22:17:56:    Newton updates this loop: 3
+22:17:56:    Newton Frame Listener... m_elapsed: 0.0516661  m_update:0.0166667
+22:17:56:    Newton updates this loop: 3
+22:17:56:    Newton Frame Listener... m_elapsed: 0.0376661  m_update:0.0166667
+22:17:56:    Newton updates this loop: 2
+22:17:56:    Newton Frame Listener... m_elapsed: 0.0433328  m_update:0.0166667
+22:17:56:    Newton updates this loop: 2
+22:17:56:    Newton Frame Listener... m_elapsed: 0.0539994  m_update:0.0166667
+22:17:56:    Newton updates this loop: 3
+22:17:56:    Newton Frame Listener... m_elapsed: 0.0419994  m_update:0.0166667
+22:17:56:    Newton updates this loop: 2
+22:17:56:    Newton Frame Listener... m_elapsed: 0.0476661  m_update:0.0166667
+22:17:57:    Newton updates this loop: 2
+22:17:57:    Newton Frame Listener... m_elapsed: 0.0893328  m_update:0.0166667
+22:17:57:    Newton updates this loop: 5
+22:17:57:    Newton Frame Listener... m_elapsed: 0.0509994  m_update:0.0166667
+22:17:57:    Newton updates this loop: 3
+22:17:57:    Newton Frame Listener... m_elapsed: 0.0419994  m_update:0.0166667
+22:17:57:    Newton updates this loop: 2
+22:17:57:    Newton Frame Listener... m_elapsed: 0.0826661  m_update:0.0166667
+22:17:57:    Newton updates this loop: 4
+22:17:57:    Newton Frame Listener... m_elapsed: 0.0609994  m_update:0.0166667
+22:17:57:    Newton updates this loop: 3
+22:17:57:    Newton Frame Listener... m_elapsed: 0.0519994  m_update:0.0166667
+22:17:57:    Newton updates this loop: 3
+22:17:57:    Newton Frame Listener... m_elapsed: 0.0409994  m_update:0.0166667
+22:17:57:    Newton updates this loop: 2
+22:17:57:    Newton Frame Listener... m_elapsed: 0.0476661  m_update:0.0166667
+22:17:57:    Newton updates this loop: 2
+22:17:57:    Newton Frame Listener... m_elapsed: 0.0533328  m_update:0.0166667
+22:17:57:    Newton updates this loop: 3
+22:17:57:    Newton Frame Listener... m_elapsed: 0.0443328  m_update:0.0166667
+22:17:57:    Newton updates this loop: 2
+22:17:57:    Newton Frame Listener... m_elapsed: 0.0869994  m_update:0.0166667
+22:17:57:    Newton updates this loop: 5
+22:17:57:    Newton Frame Listener... m_elapsed: 0.0476661  m_update:0.0166667
+22:17:57:    Newton updates this loop: 2
+22:17:57:    Newton Frame Listener... m_elapsed: 0.0553328  m_update:0.0166667
+22:17:57:    Newton updates this loop: 3
+22:17:57:    Newton Frame Listener... m_elapsed: 0.0453327  m_update:0.0166667
+22:17:57:    Newton updates this loop: 2
+22:17:57:    Newton Frame Listener... m_elapsed: 0.0569994  m_update:0.0166667
+22:17:57:    Newton updates this loop: 3
+22:17:57:    Newton Frame Listener... m_elapsed: 0.0419994  m_update:0.0166667
+22:17:57:    Newton updates this loop: 2
+22:17:57:    Newton Frame Listener... m_elapsed: 0.0476661  m_update:0.0166667
+22:17:57:    Newton updates this loop: 2
+22:17:57:    Newton Frame Listener... m_elapsed: 0.0573327  m_update:0.0166667
+22:17:57:    Newton updates this loop: 3
+22:17:57:    Newton Frame Listener... m_elapsed: 0.0443327  m_update:0.0166667
+22:17:57:    Newton updates this loop: 2
+22:17:57:    Newton Frame Listener... m_elapsed: 0.0879994  m_update:0.0166667
+22:17:57:    Newton updates this loop: 5
+22:17:57:    Newton Frame Listener... m_elapsed: 0.0486661  m_update:0.0166667
+22:17:58:    Newton updates this loop: 2
+22:17:58:    Newton Frame Listener... m_elapsed: 0.0553327  m_update:0.0166667
+22:17:58:    Newton updates this loop: 3
+22:17:58:    Newton Frame Listener... m_elapsed: 0.0453327  m_update:0.0166667
+22:17:58:    Newton updates this loop: 2
+22:17:58:    Newton Frame Listener... m_elapsed: 0.0519994  m_update:0.0166667
+22:17:58:    Newton updates this loop: 3
+22:17:58:    Newton Frame Listener... m_elapsed: 0.0419994  m_update:0.0166667
+22:17:58:    Newton updates this loop: 2
+22:17:58:    Newton Frame Listener... m_elapsed: 0.0496661  m_update:0.0166667
+22:17:58:    Newton updates this loop: 2
+22:17:58:    Newton Frame Listener... m_elapsed: 0.0583327  m_update:0.0166667
+22:17:58:    Newton updates this loop: 3
+22:17:58:    Newton Frame Listener... m_elapsed: 0.0453327  m_update:0.0166667
+22:17:58:    Newton updates this loop: 2
+22:17:58:    Newton Frame Listener... m_elapsed: 0.0529994  m_update:0.0166667
+22:17:58:    Newton updates this loop: 3
+22:17:58:    Newton Frame Listener... m_elapsed: 0.0419994  m_update:0.0166667
+22:17:58:    Newton updates this loop: 2
+22:17:58:    Newton Frame Listener... m_elapsed: 0.0486661  m_update:0.0166667
+22:17:58:    Newton updates this loop: 2
+22:17:58:    Newton Frame Listener... m_elapsed: 0.0923327  m_update:0.0166667
+22:17:58:    Newton updates this loop: 5
+22:17:58:    Newton Frame Listener... m_elapsed: 0.0529994  m_update:0.0166667
+22:17:58:    Newton updates this loop: 3
+22:17:58:    Newton Frame Listener... m_elapsed: 0.0429994  m_update:0.0166667
+22:17:58:    Newton updates this loop: 2
+22:17:58:    Newton Frame Listener... m_elapsed: 0.0486661  m_update:0.0166667
+22:17:58:    Newton updates this loop: 2
+22:17:58:    Newton Frame Listener... m_elapsed: 0.0623327  m_update:0.0166667
+22:17:58:    Newton updates this loop: 3
+22:17:58:    Newton Frame Listener... m_elapsed: 0.0463327  m_update:0.0166667
+22:17:58:    Newton updates this loop: 2
+22:17:58:    Newton Frame Listener... m_elapsed: 0.0529994  m_update:0.0166667
+22:17:58:    Newton updates this loop: 3
+22:17:58:    Newton Frame Listener... m_elapsed: 0.0429994  m_update:0.0166667
+22:17:58:    Newton updates this loop: 2
+22:17:58:    Newton Frame Listener... m_elapsed: 0.049666  m_update:0.0166667
+22:17:58:    Newton updates this loop: 2
+22:17:58:    Newton Frame Listener... m_elapsed: 0.0663327  m_update:0.0166667
+22:17:58:    Newton updates this loop: 3
+22:17:58:    Newton Frame Listener... m_elapsed: 0.0503327  m_update:0.0166667
+22:17:58:    Newton updates this loop: 3
+22:17:58:    Newton Frame Listener... m_elapsed: 0.0383327  m_update:0.0166667
+22:17:58:    Newton updates this loop: 2
+22:17:58:    Newton Frame Listener... m_elapsed: 0.0429994  m_update:0.0166667
+22:17:58:    Newton updates this loop: 2
+22:17:58:    Newton Frame Listener... m_elapsed: 0.049666  m_update:0.0166667
+22:17:59:    Newton updates this loop: 2
+22:17:59:    Newton Frame Listener... m_elapsed: 0.0563327  m_update:0.0166667
+22:17:59:    Newton updates this loop: 3
+22:17:59:    Newton Frame Listener... m_elapsed: 0.0463327  m_update:0.0166667
+22:17:59:    Newton updates this loop: 2
+22:17:59:    Newton Frame Listener... m_elapsed: 0.0529994  m_update:0.0166667
+22:17:59:    Newton updates this loop: 3
+22:17:59:    Newton Frame Listener... m_elapsed: 0.0459994  m_update:0.0166667
+22:17:59:    Newton updates this loop: 2
+22:17:59:    Newton Frame Listener... m_elapsed: 0.049666  m_update:0.0166667
+22:17:59:    Newton updates this loop: 2
+22:17:59:    Newton Frame Listener... m_elapsed: 0.0563327  m_update:0.0166667
+22:17:59:    Newton updates this loop: 3
+22:17:59:    Newton Frame Listener... m_elapsed: 0.0463327  m_update:0.0166667
+22:17:59:    Newton updates this loop: 2
+22:17:59:    Newton Frame Listener... m_elapsed: 0.0539994  m_update:0.0166667
+22:17:59:    Newton updates this loop: 3
+22:17:59:    Newton Frame Listener... m_elapsed: 0.0789994  m_update:0.0166667
+22:17:59:    Newton updates this loop: 4
+22:17:59:    Newton Frame Listener... m_elapsed: 0.0573327  m_update:0.0166667
+22:17:59:    Newton updates this loop: 3
+22:17:59:    Newton Frame Listener... m_elapsed: 0.0473327  m_update:0.0166667
+22:17:59:    Newton updates this loop: 2
+22:17:59:    Newton Frame Listener... m_elapsed: 0.0579994  m_update:0.0166667
+22:17:59:    Newton updates this loop: 3
+22:17:59:    Newton Frame Listener... m_elapsed: 0.0809994  m_update:0.0166667
+22:17:59:    Newton updates this loop: 4
+22:17:59:    Newton Frame Listener... m_elapsed: 0.0593327  m_update:0.0166667
+22:17:59:    Newton updates this loop: 3
+22:17:59:    Newton Frame Listener... m_elapsed: 0.0473327  m_update:0.0166667
+22:17:59:    Newton updates this loop: 2
+22:17:59:    Newton Frame Listener... m_elapsed: 0.0539994  m_update:0.0166667
+22:17:59:    Newton updates this loop: 3
+22:17:59:    Newton Frame Listener... m_elapsed: 0.0449993  m_update:0.0166667
+22:17:59:    Newton updates this loop: 2
+22:17:59:    Newton Frame Listener... m_elapsed: 0.088666  m_update:0.0166667
+22:17:59:    Newton updates this loop: 5
+22:17:59:    Newton Frame Listener... m_elapsed: 0.0473327  m_update:0.0166667
+22:17:59:    Newton updates this loop: 2
+22:17:59:    Newton Frame Listener... m_elapsed: 0.0579993  m_update:0.0166667
+22:17:59:    Newton updates this loop: 3
+22:17:59:    Newton Frame Listener... m_elapsed: 0.0459993  m_update:0.0166667
+22:17:59:    Newton updates this loop: 2
+22:17:59:    Newton Frame Listener... m_elapsed: 0.051666  m_update:0.0166667
+22:18:00:    Newton updates this loop: 3
+22:18:00:    Newton Frame Listener... m_elapsed: 0.041666  m_update:0.0166667
+22:18:00:    Newton updates this loop: 2
+22:18:00:    Newton Frame Listener... m_elapsed: 0.0503327  m_update:0.0166667
+22:18:00:    Newton updates this loop: 3
+22:18:00:    Newton Frame Listener... m_elapsed: 0.0393327  m_update:0.0166667
+22:18:00:    Newton updates this loop: 2
+22:18:00:    Newton Frame Listener... m_elapsed: 0.0449993  m_update:0.0166667
+22:18:00:    Newton updates this loop: 2
+22:18:00:    Newton Frame Listener... m_elapsed: 0.051666  m_update:0.0166667
+22:18:00:    Newton updates this loop: 3
+22:18:00:    Newton Frame Listener... m_elapsed: 0.041666  m_update:0.0166667
+22:18:00:    Newton updates this loop: 2
+22:18:00:    Newton Frame Listener... m_elapsed: 0.0853327  m_update:0.0166667
+22:18:00:    Newton updates this loop: 5
+22:18:00:    Newton Frame Listener... m_elapsed: 0.0449993  m_update:0.0166667
+22:18:00:    Newton updates this loop: 2
+22:18:00:    Newton Frame Listener... m_elapsed: 0.051666  m_update:0.0166667
+22:18:00:    Newton updates this loop: 3
+22:18:00:    Newton Frame Listener... m_elapsed: 0.041666  m_update:0.0166667
+22:18:00:    Newton updates this loop: 2
+22:18:00:    Newton Frame Listener... m_elapsed: 0.0553326  m_update:0.0166667
+22:18:00:    Newton updates this loop: 3
+22:18:00:    Newton Frame Listener... m_elapsed: 0.0423326  m_update:0.0166667
+22:18:00:    Newton updates this loop: 2
+22:18:00:    Newton Frame Listener... m_elapsed: 0.0459993  m_update:0.0166667
+22:18:00:    Newton updates this loop: 2
+22:18:00:    Newton Frame Listener... m_elapsed: 0.052666  m_update:0.0166667
+22:18:00:    Newton updates this loop: 3
+22:18:00:    Newton Frame Listener... m_elapsed: 0.042666  m_update:0.0166667
+22:18:00:    Newton updates this loop: 2
+22:18:00:    Newton Frame Listener... m_elapsed: 0.0513326  m_update:0.0166667
+22:18:00:    Newton updates this loop: 3
+22:18:00:    Newton Frame Listener... m_elapsed: 0.0393326  m_update:0.0166667
+22:18:00:    Newton updates this loop: 2
+22:18:00:    Newton Frame Listener... m_elapsed: 0.0459993  m_update:0.0166667
+22:18:00:    Newton updates this loop: 2
+22:18:00:    Newton Frame Listener... m_elapsed: 0.052666  m_update:0.0166667
+22:18:00:    Newton updates this loop: 3
+22:18:00:    Newton Frame Listener... m_elapsed: 0.042666  m_update:0.0166667
+22:18:00:    Newton updates this loop: 2
+22:18:00:    Newton Frame Listener... m_elapsed: 0.0493326  m_update:0.0166667
+22:18:00:    Newton updates this loop: 2
+22:18:00:    Newton Frame Listener... m_elapsed: 0.0579993  m_update:0.0166667
+22:18:00:    Newton updates this loop: 3
+22:18:00:    Newton Frame Listener... m_elapsed: 0.0489993  m_update:0.0166667
+22:18:00:    Newton updates this loop: 2
+22:18:00:    Newton Frame Listener... m_elapsed: 0.0546659  m_update:0.0166667
+22:18:01:    Newton updates this loop: 3
+22:18:01:    Newton Frame Listener... m_elapsed: 0.0806659  m_update:0.0166667
+22:18:01:    Newton updates this loop: 4
+22:18:01:    Newton Frame Listener... m_elapsed: 0.0939993  m_update:0.0166667
+22:18:01:    Newton updates this loop: 5
+22:18:01:    Newton Frame Listener... m_elapsed: 0.091666  m_update:0.0166667
+22:18:01:    Newton updates this loop: 5
+22:18:01:    Newton Frame Listener... m_elapsed: 0.0533326  m_update:0.0166667
+22:18:01:    Newton updates this loop: 3
+22:18:01:    Newton Frame Listener... m_elapsed: 0.0433326  m_update:0.0166667
+22:18:01:    Newton updates this loop: 2
+22:18:01:    Newton Frame Listener... m_elapsed: 0.0479993  m_update:0.0166667
+22:18:01:    Newton updates this loop: 2
+22:18:01:    Newton Frame Listener... m_elapsed: 0.0596659  m_update:0.0166667
+22:18:01:    Newton updates this loop: 3
+22:18:01:    Newton Frame Listener... m_elapsed: 0.0436659  m_update:0.0166667
+22:18:01:    Newton updates this loop: 2
+22:18:01:    Newton Frame Listener... m_elapsed: 0.0503326  m_update:0.0166667
+22:18:01:    Newton updates this loop: 3
+22:18:01:    Newton Frame Listener... m_elapsed: 0.0413326  m_update:0.0166667
+22:18:01:    Newton updates this loop: 2
+22:18:01:    Newton Frame Listener... m_elapsed: 0.0469993  m_update:0.0166667
+22:18:01:    Newton updates this loop: 2
+22:18:01:    Newton Frame Listener... m_elapsed: 0.0546659  m_update:0.0166667
+22:18:01:    Newton updates this loop: 3
+22:18:01:    Newton Frame Listener... m_elapsed: 0.0456659  m_update:0.0166667
+22:18:01:    Newton updates this loop: 2
+22:18:01:    Newton Frame Listener... m_elapsed: 0.0853326  m_update:0.0166667
+22:18:01:    Newton updates this loop: 5
+22:18:01:    Newton Frame Listener... m_elapsed: 0.0499993  m_update:0.0166667
+22:18:01:    Newton updates this loop: 2
+22:18:01:    Newton Frame Listener... m_elapsed: 0.0546659  m_update:0.0166667
+22:18:01:    Newton updates this loop: 3
+22:18:01:    Newton Frame Listener... m_elapsed: 0.0446659  m_update:0.0166667
+22:18:01:    Newton updates this loop: 2
+22:18:01:    Newton Frame Listener... m_elapsed: 0.0513326  m_update:0.0166667
+22:18:01:    Newton updates this loop: 3
+22:18:01:    Newton Frame Listener... m_elapsed: 0.0443326  m_update:0.0166667
+22:18:01:    Newton updates this loop: 2
+22:18:01:    Newton Frame Listener... m_elapsed: 0.0479993  m_update:0.0166667
+22:18:01:    Newton updates this loop: 2
+22:18:01:    Newton Frame Listener... m_elapsed: 0.0546659  m_update:0.0166667
+22:18:02:    Newton updates this loop: 3
+22:18:02:    Newton Frame Listener... m_elapsed: 0.0806659  m_update:0.0166667
+22:18:02:    Newton updates this loop: 4
+22:18:02:    Newton Frame Listener... m_elapsed: 0.0939993  m_update:0.0166667
+22:18:02:    Newton updates this loop: 5
+22:18:02:    Newton Frame Listener... m_elapsed: 0.0546659  m_update:0.0166667
+22:18:02:    Newton updates this loop: 3
+22:18:02:    Newton Frame Listener... m_elapsed: 0.0446659  m_update:0.0166667
+22:18:02:    Newton updates this loop: 2
+22:18:02:    Newton Frame Listener... m_elapsed: 0.0543326  m_update:0.0166667
+22:18:02:    Newton updates this loop: 3
+22:18:02:    Newton Frame Listener... m_elapsed: 0.0483326  m_update:0.0166667
+22:18:02:    Newton updates this loop: 2
+22:18:02:    Newton Frame Listener... m_elapsed: 0.0509993  m_update:0.0166667
+22:18:02:    Newton updates this loop: 3
+22:18:02:    Newton Frame Listener... m_elapsed: 0.0389993  m_update:0.0166667
+22:18:02:    Newton updates this loop: 2
+22:18:02:    Newton Frame Listener... m_elapsed: 0.0446659  m_update:0.0166667
+22:18:02:    Newton updates this loop: 2
+22:18:02:    Newton Frame Listener... m_elapsed: 0.0523326  m_update:0.0166667
+22:18:02:    Newton updates this loop: 3
+22:18:02:    Newton Frame Listener... m_elapsed: 0.0593326  m_update:0.0166667
+22:18:02:    Newton updates this loop: 3
+22:18:02:    Newton Frame Listener... m_elapsed: 0.0323326  m_update:0.0166667
+22:18:02:    Newton updates this loop: 1
+22:18:02:    Newton Frame Listener... m_elapsed: 0.0556659  m_update:0.0166667
+22:18:02:    Newton updates this loop: 3
+22:18:02:    Newton Frame Listener... m_elapsed: 0.0456659  m_update:0.0166667
+22:18:02:    Newton updates this loop: 2
+22:18:02:    Newton Frame Listener... m_elapsed: 0.0563326  m_update:0.0166667
+22:18:02:    Newton updates this loop: 3
+22:18:02:    Newton Frame Listener... m_elapsed: 0.0433326  m_update:0.0166667
+22:18:02:    Newton updates this loop: 2
+22:18:02:    Newton Frame Listener... m_elapsed: 0.0489992  m_update:0.0166667
+22:18:02:    Newton updates this loop: 2
+22:18:02:    Newton Frame Listener... m_elapsed: 0.0946659  m_update:0.0166667
+22:18:02:    Newton updates this loop: 5
+22:18:02:    Newton Frame Listener... m_elapsed: 0.0563326  m_update:0.0166667
+22:18:02:    Newton updates this loop: 3
+22:18:02:    Newton Frame Listener... m_elapsed: 0.0453326  m_update:0.0166667
+22:18:02:    Newton updates this loop: 2
+22:18:02:    Newton Frame Listener... m_elapsed: 0.0509992  m_update:0.0166667
+22:18:02:    Newton updates this loop: 3
+22:18:02:    Newton Frame Listener... m_elapsed: 0.0389992  m_update:0.0166667
+22:18:03:    Newton updates this loop: 2
+22:18:03:    Newton Frame Listener... m_elapsed: 0.0816659  m_update:0.0166667
+22:18:03:    Newton updates this loop: 4
+22:18:03:    Newton Frame Listener... m_elapsed: 0.0569992  m_update:0.0166667
+22:18:03:    Newton updates this loop: 3
+22:18:03:    Newton Frame Listener... m_elapsed: 0.0539992  m_update:0.0166667
+22:18:03:    Newton updates this loop: 3
+22:18:03:    Newton Frame Listener... m_elapsed: 0.0419992  m_update:0.0166667
+22:18:03:    Newton updates this loop: 2
+22:18:03:    Newton Frame Listener... m_elapsed: 0.0526659  m_update:0.0166667
+22:18:03:    Newton updates this loop: 3
+22:18:03:    Newton Frame Listener... m_elapsed: 0.0366659  m_update:0.0166667
+22:18:03:    Newton updates this loop: 2
+22:18:03:    Newton Frame Listener... m_elapsed: 0.0433326  m_update:0.0166667
+22:18:03:    Newton updates this loop: 2
+22:18:03:    Newton Frame Listener... m_elapsed: 0.0509992  m_update:0.0166667
+22:18:03:    Newton updates this loop: 3
+22:18:03:    Newton Frame Listener... m_elapsed: 0.0399992  m_update:0.0166667
+22:18:03:    Newton updates this loop: 2
+22:18:03:    Newton Frame Listener... m_elapsed: 0.0466659  m_update:0.0166667
+22:18:03:    Newton updates this loop: 2
+22:18:03:    Newton Frame Listener... m_elapsed: 0.0543325  m_update:0.0166667
+22:18:03:    Newton updates this loop: 3
+22:18:03:    Newton Frame Listener... m_elapsed: 0.0433325  m_update:0.0166667
+22:18:03:    Newton updates this loop: 2
+22:18:03:    Newton Frame Listener... m_elapsed: 0.0509992  m_update:0.0166667
+22:18:03:    Newton updates this loop: 3
+22:18:03:    Newton Frame Listener... m_elapsed: 0.0759992  m_update:0.0166667
+22:18:03:    Newton updates this loop: 4
+22:18:03:    Newton Frame Listener... m_elapsed: 0.0543326  m_update:0.0166667
+22:18:03:    Newton updates this loop: 3
+22:18:03:    Newton Frame Listener... m_elapsed: 0.0443325  m_update:0.0166667
+22:18:03:    Newton updates this loop: 2
+22:18:03:    Newton Frame Listener... m_elapsed: 0.0549992  m_update:0.0166667
+22:18:03:    Newton updates this loop: 3
+22:18:03:    Newton Frame Listener... m_elapsed: 0.0409992  m_update:0.0166667
+22:18:03:    Newton updates this loop: 2
+22:18:03:    Newton Frame Listener... m_elapsed: 0.0486659  m_update:0.0166667
+22:18:03:    Newton updates this loop: 2
+22:18:03:    Newton Frame Listener... m_elapsed: 0.0553325  m_update:0.0166667
+22:18:03:    Newton updates this loop: 3
+22:18:03:    Newton Frame Listener... m_elapsed: 0.0443325  m_update:0.0166667
+22:18:03:    Newton updates this loop: 2
+22:18:03:    Newton Frame Listener... m_elapsed: 0.0869992  m_update:0.0166667
+22:18:04:    Newton updates this loop: 5
+22:18:04:    Newton Frame Listener... m_elapsed: 0.0486659  m_update:0.0166667
+22:18:04:    Newton updates this loop: 2
+22:18:04:    Newton Frame Listener... m_elapsed: 0.0553325  m_update:0.0166667
+22:18:04:    Newton updates this loop: 3
+22:18:04:    Newton Frame Listener... m_elapsed: 0.0453325  m_update:0.0166667
+22:18:04:    Newton updates this loop: 2
+22:18:04:    Newton Frame Listener... m_elapsed: 0.0579992  m_update:0.0166667
+22:18:04:    Newton updates this loop: 3
+22:18:04:    Newton Frame Listener... m_elapsed: 0.0419992  m_update:0.0166667
+22:18:04:    Newton updates this loop: 2
+22:18:04:    Newton Frame Listener... m_elapsed: 0.0496659  m_update:0.0166667
+22:18:04:    Newton updates this loop: 2
+22:18:04:    Newton Frame Listener... m_elapsed: 0.0553325  m_update:0.0166667
+22:18:04:    Newton updates this loop: 3
+22:18:04:    Newton Frame Listener... m_elapsed: 0.0563325  m_update:0.0166667
+22:18:04:    Newton updates this loop: 3
+22:18:04:    Newton Frame Listener... m_elapsed: 0.0353325  m_update:0.0166667
+22:18:04:    Newton updates this loop: 2
+22:18:04:    Newton Frame Listener... m_elapsed: 0.0419992  m_update:0.0166667
+22:18:04:    Newton updates this loop: 2
+22:18:04:    Newton Frame Listener... m_elapsed: 0.0516659  m_update:0.0166667
+22:18:04:    Newton updates this loop: 3
+22:18:04:    Newton Frame Listener... m_elapsed: 0.0396659  m_update:0.0166667
+22:18:04:    Newton updates this loop: 2
+22:18:04:    Newton Frame Listener... m_elapsed: 0.0463325  m_update:0.0166667
+22:18:04:    Newton updates this loop: 2
+22:18:04:    Newton Frame Listener... m_elapsed: 0.0769992  m_update:0.0166667
+22:18:04:    Newton updates this loop: 4
+22:18:04:    Newton Frame Listener... m_elapsed: 0.118333  m_update:0.0166667
+22:18:04:    Newton updates this loop: 7
+22:18:04:    Newton Frame Listener... m_elapsed: 0.0286659  m_update:0.0166667
+22:18:04:    Newton updates this loop: 1
+22:18:04:    Newton Frame Listener... m_elapsed: 0.0519992  m_update:0.0166667
+22:18:04:    Newton updates this loop: 3
+22:18:04:    Newton Frame Listener... m_elapsed: 0.0809992  m_update:0.0166667
+22:18:04:    Newton updates this loop: 4
+22:18:04:    Newton Frame Listener... m_elapsed: 0.0943325  m_update:0.0166667
+22:18:04:    Newton updates this loop: 5
+22:18:04:    Newton Frame Listener... m_elapsed: 0.0549992  m_update:0.0166667
+22:18:04:    Newton updates this loop: 3
+22:18:05:    Newton Frame Listener... m_elapsed: 0.0429992  m_update:0.0166667
+22:18:05:    Newton updates this loop: 2
+22:18:05:    Newton Frame Listener... m_elapsed: 0.0496659  m_update:0.0166667
+22:18:05:    Newton updates this loop: 2
+22:18:05:    Newton Frame Listener... m_elapsed: 0.0623325  m_update:0.0166667
+22:18:05:    Newton updates this loop: 3
+22:18:05:    Newton Frame Listener... m_elapsed: 0.0463325  m_update:0.0166667
+22:18:05:    Newton updates this loop: 2
+22:18:05:    Newton Frame Listener... m_elapsed: 0.0529992  m_update:0.0166667
+22:18:05:    Newton updates this loop: 3
+22:18:05:    Newton Frame Listener... m_elapsed: 0.0459992  m_update:0.0166667
+22:18:05:    Newton updates this loop: 2
+22:18:05:    Newton Frame Listener... m_elapsed: 0.0536659  m_update:0.0166667
+22:18:05:    Newton updates this loop: 3
+22:18:05:    Newton Frame Listener... m_elapsed: 0.0396658  m_update:0.0166667
+22:18:05:    Newton updates this loop: 2
+22:18:05:    Newton Frame Listener... m_elapsed: 0.0473325  m_update:0.0166667
+22:18:05:    Newton updates this loop: 2
+22:18:05:    Newton Frame Listener... m_elapsed: 0.0539992  m_update:0.0166667
+22:18:05:    Newton updates this loop: 3
+22:18:05:    Newton Frame Listener... m_elapsed: 0.0789992  m_update:0.0166667
+22:18:05:    Newton updates this loop: 4
+22:18:05:    Newton Frame Listener... m_elapsed: 0.0573325  m_update:0.0166667
+22:18:05:    Newton updates this loop: 3
+22:18:05:    Newton Frame Listener... m_elapsed: 0.0463325  m_update:0.0166667
+22:18:05:    Newton updates this loop: 2
+22:18:05:    Newton Frame Listener... m_elapsed: 0.0549992  m_update:0.0166667
+22:18:05:    Newton updates this loop: 3
+22:18:05:    Newton Frame Listener... m_elapsed: 0.0469992  m_update:0.0166667
+22:18:05:    Newton updates this loop: 2
+22:18:05:    Newton Frame Listener... m_elapsed: 0.0536658  m_update:0.0166667
+22:18:05:    Newton updates this loop: 3
+22:18:05:    Newton Frame Listener... m_elapsed: 0.0406658  m_update:0.0166667
+22:18:05:    Newton updates this loop: 2
+22:18:05:    Newton Frame Listener... m_elapsed: 0.0823325  m_update:0.0166667
+22:18:05:    Newton updates this loop: 4
+22:18:05:    Newton Frame Listener... m_elapsed: 0.0956658  m_update:0.0166667
+22:18:05:    Newton updates this loop: 5
+22:18:05:    Newton Frame Listener... m_elapsed: 0.0533325  m_update:0.0166667
+22:18:05:    Newton updates this loop: 3
+22:18:05:    Newton Frame Listener... m_elapsed: 0.0463325  m_update:0.0166667
+22:18:05:    Newton updates this loop: 2
+22:18:05:    Newton Frame Listener... m_elapsed: 0.0539992  m_update:0.0166667
+22:18:05:    Newton updates this loop: 3
+22:18:06:    Newton Frame Listener... m_elapsed: 0.0509992  m_update:0.0166667
+22:18:06:    Newton updates this loop: 3
+22:18:06:    Newton Frame Listener... m_elapsed: 0.0339992  m_update:0.0166667
+22:18:06:    Newton updates this loop: 2
+22:18:06:    Newton Frame Listener... m_elapsed: 0.0406658  m_update:0.0166667
+22:18:06:    Newton updates this loop: 2
+22:18:06:    Newton Frame Listener... m_elapsed: 0.0473325  m_update:0.0166667
+22:18:06:    Newton updates this loop: 2
+22:18:06:    Newton Frame Listener... m_elapsed: 0.0549992  m_update:0.0166667
+22:18:06:    Newton updates this loop: 3
+22:18:06:    Newton Frame Listener... m_elapsed: 0.0439992  m_update:0.0166667
+22:18:06:    Newton updates this loop: 2
+22:18:06:    Newton Frame Listener... m_elapsed: 0.0506658  m_update:0.0166667
+22:18:06:    Newton updates this loop: 3
+22:18:06:    Newton Frame Listener... m_elapsed: 0.0426658  m_update:0.0166667
+22:18:06:    Newton updates this loop: 2
+22:18:06:    Newton Frame Listener... m_elapsed: 0.0843325  m_update:0.0166667
+22:18:06:    Newton updates this loop: 5
+22:18:06:    Newton Frame Listener... m_elapsed: 0.0439992  m_update:0.0166667
+22:18:06:    Newton updates this loop: 2
+22:18:06:    Newton Frame Listener... m_elapsed: 0.0516658  m_update:0.0166667
+22:18:06:    Newton updates this loop: 3
+22:18:06:    Newton Frame Listener... m_elapsed: 0.0416658  m_update:0.0166667
+22:18:06:    Newton updates this loop: 2
+22:18:06:    Newton Frame Listener... m_elapsed: 0.0493325  m_update:0.0166667
+22:18:06:    Newton updates this loop: 2
+22:18:06:    Newton Frame Listener... m_elapsed: 0.0559991  m_update:0.0166667
+22:18:06:    Newton updates this loop: 3
+22:18:06:    Newton Frame Listener... m_elapsed: 0.0479991  m_update:0.0166667
+22:18:06:    Newton updates this loop: 2
+22:18:06:    Newton Frame Listener... m_elapsed: 0.0526658  m_update:0.0166667
+22:18:06:    Newton updates this loop: 3
+22:18:06:    Newton Frame Listener... m_elapsed: 0.0446658  m_update:0.0166667
+22:18:06:    Newton updates this loop: 2
+22:18:06:    Newton Frame Listener... m_elapsed: 0.0853325  m_update:0.0166667
+22:18:06:    Newton updates this loop: 5
+22:18:06:    Newton Frame Listener... m_elapsed: 0.0449991  m_update:0.0166667
+22:18:06:    Newton updates this loop: 2
+22:18:06:    Newton Frame Listener... m_elapsed: 0.0516658  m_update:0.0166667
+22:18:06:    Newton updates this loop: 3
+22:18:06:    Newton Frame Listener... m_elapsed: 0.0416658  m_update:0.0166667
+22:18:06:    Newton updates this loop: 2
+22:18:06:    Newton Frame Listener... m_elapsed: 0.0553325  m_update:0.0166667
+22:18:06:    Newton updates this loop: 3
+22:18:06:    Newton Frame Listener... m_elapsed: 0.0383325  m_update:0.0166667
+22:18:06:    Newton updates this loop: 2
+22:18:07:    Newton Frame Listener... m_elapsed: 0.0449991  m_update:0.0166667
+22:18:07:    Newton updates this loop: 2
+22:18:07:    Newton Frame Listener... m_elapsed: 0.0536658  m_update:0.0166667
+22:18:07:    Newton updates this loop: 3
+22:18:07:    Newton Frame Listener... m_elapsed: 0.0416658  m_update:0.0166667
+22:18:07:    Newton updates this loop: 2
+22:18:07:    Newton Frame Listener... m_elapsed: 0.0493325  m_update:0.0166667
+22:18:07:    Newton updates this loop: 2
+22:18:07:    Newton Frame Listener... m_elapsed: 0.0549991  m_update:0.0166667
+22:18:07:    Newton updates this loop: 3
+22:18:07:    Newton Frame Listener... m_elapsed: 0.0449991  m_update:0.0166667
+22:18:07:    Newton updates this loop: 2
+22:18:07:    Newton Frame Listener... m_elapsed: 0.0546658  m_update:0.0166667
+22:18:07:    Newton updates this loop: 3
+22:18:07:    Newton Frame Listener... m_elapsed: 0.0416658  m_update:0.0166667
+22:18:07:    Newton updates this loop: 2
+22:18:07:    Newton Frame Listener... m_elapsed: 0.0493324  m_update:0.0166667
+22:18:07:    Newton updates this loop: 2
+22:18:07:    Newton Frame Listener... m_elapsed: 0.0559991  m_update:0.0166667
+22:18:07:    Newton updates this loop: 3
+22:18:07:    Newton Frame Listener... m_elapsed: 0.0459991  m_update:0.0166667
+22:18:07:    Newton updates this loop: 2
+22:18:07:    Newton Frame Listener... m_elapsed: 0.0566658  m_update:0.0166667
+22:18:07:    Newton updates this loop: 3
+22:18:07:    Newton Frame Listener... m_elapsed: 0.0816658  m_update:0.0166667
+22:18:07:    Newton updates this loop: 4
+22:18:07:    Newton Frame Listener... m_elapsed: 0.0559991  m_update:0.0166667
+22:18:07:    Newton updates this loop: 3
+22:18:07:    Newton Frame Listener... m_elapsed: 0.0499991  m_update:0.0166667
+22:18:07:    Newton updates this loop: 2
+22:18:07:    Newton Frame Listener... m_elapsed: 0.0896658  m_update:0.0166667
+22:18:07:    Newton updates this loop: 5
+22:18:07:    Newton Frame Listener... m_elapsed: 0.0493324  m_update:0.0166667
+22:18:07:    Newton updates this loop: 2
+22:18:07:    Newton Frame Listener... m_elapsed: 0.0559991  m_update:0.0166667
+22:18:07:    Newton updates this loop: 3
+22:18:07:    Newton Frame Listener... m_elapsed: 0.0469991  m_update:0.0166667
+22:18:07:    Newton updates this loop: 2
+22:18:07:    Newton Frame Listener... m_elapsed: 0.0606658  m_update:0.0166667
+22:18:07:    Newton updates this loop: 3
+22:18:07:    Newton Frame Listener... m_elapsed: 0.0436658  m_update:0.0166667
+22:18:07:    Newton updates this loop: 2
+22:18:07:    Newton Frame Listener... m_elapsed: 0.0503324  m_update:0.0166667
+22:18:07:    Newton updates this loop: 3
+22:18:07:    Newton Frame Listener... m_elapsed: 0.0403324  m_update:0.0166667
+22:18:07:    Newton updates this loop: 2
+22:18:08:    Newton Frame Listener... m_elapsed: 0.0479991  m_update:0.0166667
+22:18:08:    Newton updates this loop: 2
+22:18:08:    Newton Frame Listener... m_elapsed: 0.0536658  m_update:0.0166667
+22:18:08:    Newton updates this loop: 3
+22:18:08:    Newton Frame Listener... m_elapsed: 0.0446658  m_update:0.0166667
+22:18:08:    Newton updates this loop: 2
+22:18:08:    Newton Frame Listener... m_elapsed: 0.0503324  m_update:0.0166667
+22:18:08:    Newton updates this loop: 3
+22:18:08:    Newton Frame Listener... m_elapsed: 0.0403324  m_update:0.0166667
+22:18:08:    Newton updates this loop: 2
+22:18:08:    Newton Frame Listener... m_elapsed: 0.0469991  m_update:0.0166667
+22:18:08:    Newton updates this loop: 2
+22:18:08:    Newton Frame Listener... m_elapsed: 0.0556658  m_update:0.0166667
+22:18:08:    Newton updates this loop: 3
+22:18:08:    Newton Frame Listener... m_elapsed: 0.0436658  m_update:0.0166667
+22:18:08:    Newton updates this loop: 2
+22:18:08:    Newton Frame Listener... m_elapsed: 0.0513324  m_update:0.0166667
+22:18:08:    Newton updates this loop: 3
+22:18:08:    Newton Frame Listener... m_elapsed: 0.0423324  m_update:0.0166667
+22:18:08:    Newton updates this loop: 2
+22:18:08:    Newton Frame Listener... m_elapsed: 0.0829991  m_update:0.0166667
+22:18:08:    Newton updates this loop: 4
+22:18:08:    Newton Frame Listener... m_elapsed: 0.0593324  m_update:0.0166667
+22:18:08:    Newton updates this loop: 3
+22:18:08:    Newton Frame Listener... m_elapsed: 0.0553324  m_update:0.0166667
+22:18:08:    Newton updates this loop: 3
+22:18:08:    Newton Frame Listener... m_elapsed: 0.0773324  m_update:0.0166667
+22:18:08:    Newton updates this loop: 4
+22:18:08:    Newton Frame Listener... m_elapsed: 0.0916657  m_update:0.0166667
+22:18:08:    Newton updates this loop: 5
+22:18:08:    Newton Frame Listener... m_elapsed: 0.0883324  m_update:0.0166667
+22:18:08:    Newton updates this loop: 5
+22:18:08:    Newton Frame Listener... m_elapsed: 0.0479991  m_update:0.0166667
+22:18:08:    Newton updates this loop: 2
+22:18:08:    Newton Frame Listener... m_elapsed: 0.0566657  m_update:0.0166667
+22:18:08:    Newton updates this loop: 3
+22:18:08:    Newton Frame Listener... m_elapsed: 0.0476657  m_update:0.0166667
+22:18:08:    Newton updates this loop: 2
+22:18:08:    Newton Frame Listener... m_elapsed: 0.0533324  m_update:0.0166667
+22:18:08:    Newton updates this loop: 3
+22:18:08:    Newton Frame Listener... m_elapsed: 0.0413324  m_update:0.0166667
+22:18:09:    Newton updates this loop: 2
+22:18:09:    Newton Frame Listener... m_elapsed: 0.0479991  m_update:0.0166667
+22:18:09:    Newton updates this loop: 2
+22:18:09:    Newton Frame Listener... m_elapsed: 0.0546657  m_update:0.0166667
+22:18:09:    Newton updates this loop: 3
+22:18:09:    Newton Frame Listener... m_elapsed: 0.0446657  m_update:0.0166667
+22:18:09:    Newton updates this loop: 2
+22:18:09:    Newton Frame Listener... m_elapsed: 0.0513324  m_update:0.0166667
+22:18:09:    Newton updates this loop: 3
+22:18:10: *-*-* OGRE Shutdown
+22:18:10: Unregistering ResourceManager for type Compositor
+22:18:10: Unregistering ResourceManager for type Font
+22:18:10: Unregistering ResourceManager for type Skeleton
+22:18:10: Unregistering ResourceManager for type Mesh
+22:18:10: Unregistering ResourceManager for type HighLevelGpuProgram
+22:18:10: *** Stopping Win32GL Subsystem ***
+22:18:10: Unloading library .\RenderSystem_GL
+22:18:10: Render Target 'OGRE Render Window' Average FPS: 21.837 Best FPS: 24.0385 Worst FPS: 0.875231
+22:18:10: D3D9 : Shutting down cleanly.
+22:18:10: Unregistering ResourceManager for type Texture
+22:18:10: Unregistering ResourceManager for type GpuProgram
+22:18:10: D3D9 : Direct3D9 Rendering Subsystem destroyed.
+22:18:10: Unloading library .\RenderSystem_Direct3D9
+22:18:10: Unregistering ResourceManager for type Material
+22:18:10: Unloading library OgrePlatform.dll

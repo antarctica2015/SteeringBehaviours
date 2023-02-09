@@ -1,0 +1,183 @@
+material Simple/RockWall
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0
+			texture_unit
+			{
+				texture rockwall.tga
+			}
+		}
+	}
+}
+
+material Simple/BeachStones
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0
+			texture_unit
+			{
+				texture BeachStones.jpg
+			}
+		}
+	}
+}
+
+material Examples/SpaceSkyBox
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture stevecube.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material Simple/dirt01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0
+			texture_unit
+			{
+				texture dirt01.jpg
+			}
+		}
+	}
+}
+
+material Simple/BumpyMetal
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0
+			texture_unit
+			{
+				texture BumpyMetal.jpg
+			}
+		}
+	}
+}
+
+
+material ConveyorBelt1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0
+			texture_unit
+			{
+				texture conveyor.png
+				scroll_anim 0.225 0
+				scale 0.5 1
+			}
+		}
+	}
+}
+
+
+material ConveyorBelt2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0
+			texture_unit
+			{
+				texture conveyor.png
+				scroll_anim -0.575 0
+				scale 0.35 1
+			}
+		}
+	}
+}
+
+material Simple/Translucent
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.2 0.2 0.8
+			specular 0 0 0 0
+			ambient 0 0 0
+			emissive 0.2 0.2 0.8
+			scene_blend add
+			depth_write off
+		}
+	}
+}
+
+material Material__25
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture texmap2.jpg
+			}
+		}
+	}
+}
+
+
+material Examples/CloudyNoonSkyBox
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture cloudy_noon.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material Examples/LightRibbonTrail
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+
+			texture_unit
+			{
+				texture ribbonband.png 1d
+				tex_address_mode clamp
+				filtering none
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+in no particular order:
+
+- add in multiple camera modes (free,chase,tracking) on an invidial or group level
+- GUI: add in information text to give the user feedback about what to do etc
+- GUI: add in control panels for each demo- sliders to adjust properties (max force/speed/behaviour weights etc)
+- rewrite & improve readme / manual
+- add in proper world bounds for AIWorld (see OgreNewt)
+- add wall/terrain avoidance behaviour
+- improve all other behaviours stability/speed
+- GUI: add mouse wheel support
+- add a range/distance modifier to flee behaviour [Done]
+- add physics based collision detection & response via OgreNewt
+- add in Evade behaviour [Done]
+- add in Hide Behaviour
+- add random inital rotation to starting position [Done]
+- make follow path behaviour generate a random path within a set boundary
+- make the path visable
+- make the path user defined
+- make code take input via params.ini once again for start up values
+- add in A* pathfinding [moved to seperate demo to be created later]
+- decouple A* decisions from movement (locomotion) layer & remove current "razor.mesh" dependancy towards a generic ai framework
+- create line3d, box3d, circle3d, sphere3d classes for visualisation options
+- improve code stability, programming style, ledgability etc
+- rewrite all code with improved interface suitable for .dll creation to allow others to use it as a plug in 

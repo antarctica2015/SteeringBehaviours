@@ -1,0 +1,322 @@
+09/02/2023 22:17:06 (InfL1)	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+09/02/2023 22:17:06 (InfL1)	+                     Crazy Eddie's GUI System - Event log                    +
+09/02/2023 22:17:06 (InfL1)	+                          (http://www.cegui.org.uk/)                         +
+09/02/2023 22:17:06 (InfL1)	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+09/02/2023 22:17:06 (InfL1)	CEGUI::Logger singleton created.
+09/02/2023 22:17:06 (InfL1)	---- Begining CEGUI System initialisation ----
+09/02/2023 22:17:06 (InfL1)	CEGUI::ImagesetManager singleton created
+09/02/2023 22:17:06 (InfL1)	CEGUI::FontManager singleton created.
+09/02/2023 22:17:06 (InfL1)	CEGUI::WindowFactoryManager singleton created
+09/02/2023 22:17:06 (InfL1)	CEGUI::WindowManager singleton created
+09/02/2023 22:17:06 (InfL1)	CEGUI::SchemeManager singleton created.
+09/02/2023 22:17:06 (InfL1)	CEGUI::MouseCursor singleton created.
+09/02/2023 22:17:06 (InfL1)	CEGUI::GlobalEventSet singleton created.
+09/02/2023 22:17:06 (InfL1)	CEGUI::WidgetLookManager singleton created.
+09/02/2023 22:17:06 (InfL1)	WindowFactory for 'DefaultWindow' windows added.
+09/02/2023 22:17:06 (InfL1)	WindowFactory for 'DragContainer' windows added.
+09/02/2023 22:17:06 (InfL1)	WindowFactory for 'ScrolledContainer' windows added.
+09/02/2023 22:17:06 (InfL1)	Window type alias named 'DefaultGUISheet' added for window type 'DefaultWindow'.
+09/02/2023 22:17:06 (InfL1)	CEGUI::System singleton created.
+09/02/2023 22:17:06 (InfL1)	---- CEGUI System initialisation completed ----
+09/02/2023 22:17:06 (InfL1)	---- Version 0.4.1 ----
+09/02/2023 22:17:06 (InfL1)	---- Renderer module is: CEGUI::OgreRenderer - Official Ogre based renderer module for CEGUI ----
+09/02/2023 22:17:06 (InfL1)	---- XML Parser module is: CEGUI::TinyXMLParser - Official tinyXML based parser module for CEGUI ----
+09/02/2023 22:17:06 (InfL1)	---- Scripting module is: None ----
+09/02/2023 22:17:06 (InfL1)	Attempting to load Scheme from file '../../Media/GUI/schemes/WindowsLook.scheme'.
+09/02/2023 22:17:06 (InfL2)	Started creation of Scheme 'WindowsLook' via XML file.
+09/02/2023 22:17:06 (InfL2)	Finished creation of Scheme 'WindowsLook' via XML file.
+09/02/2023 22:17:06 (InfL2)	Loaded GUI scheme 'WindowsLook' from data in file '../../Media/GUI/schemes/WindowsLook.scheme'.
+09/02/2023 22:17:06 (InfL2)	---- Begining resource loading for GUI scheme 'WindowsLook' ----
+09/02/2023 22:17:06 (InfL1)	Attempting to create an Imageset from the information specified in file '../../Media/GUI/imagesets/WindowsLook.imageset'.
+09/02/2023 22:17:07 (InfL2)	Started creation of Imageset 'WindowsLook' via XML file.
+09/02/2023 22:17:07 (InfL2)	Finished creation of Imageset 'WindowsLook' via XML file.
+09/02/2023 22:17:07 (InfL1)	Attempting to create Font from the information specified in file '../../Media/GUI/fonts/Commonwealth-10.font'.
+09/02/2023 22:17:07 (InfL2)	Started creation of Font 'Commonwealth-10' via XML file.
+09/02/2023 22:17:07 (InfL1)	Attempting to create Imageset 'Commonwealth-10_auto_glyph_images' with texture only.
+09/02/2023 22:17:07 (InfL2)	Font 'Commonwealth-10' now has the following glyphs defined: ' !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~'.
+09/02/2023 22:17:07 (InfL2)	Finished creation of Font 'Commonwealth-10' via XML file.
+09/02/2023 22:17:07 (InfL1)	Attempting to create Font from the information specified in file '../../Media/GUI/fonts/Impact.font'.
+09/02/2023 22:17:07 (InfL2)	Started creation of Font 'Impact' via XML file.
+09/02/2023 22:17:07 (InfL1)	Attempting to create Imageset 'Impact_auto_glyph_images' with texture only.
+09/02/2023 22:17:08 (InfL2)	Font 'Impact' now has the following glyphs defined: ' !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~'.
+09/02/2023 22:17:08 (InfL2)	Finished creation of Font 'Impact' via XML file.
+09/02/2023 22:17:09 (InfL1)	WindowFactory for 'WindowsLook/Button' windows added.
+09/02/2023 22:17:09 (InfL1)	WindowFactory for 'WindowsLook/Checkbox' windows added.
+09/02/2023 22:17:09 (InfL1)	WindowFactory for 'WindowsLook/CloseButton' windows added.
+09/02/2023 22:17:09 (InfL1)	WindowFactory for 'WindowsLook/Combobox' windows added.
+09/02/2023 22:17:09 (InfL1)	WindowFactory for 'WindowsLook/ComboDropList' windows added.
+09/02/2023 22:17:09 (InfL1)	WindowFactory for 'WindowsLook/Editbox' windows added.
+09/02/2023 22:17:09 (InfL1)	WindowFactory for 'WindowsLook/FrameWindow' windows added.
+09/02/2023 22:17:09 (InfL1)	WindowFactory for 'WindowsLook/HorizontalScrollbar' windows added.
+09/02/2023 22:17:09 (InfL1)	WindowFactory for 'WindowsLook/HorizontalScrollbarThumb' windows added.
+09/02/2023 22:17:09 (InfL1)	WindowFactory for 'WindowsLook/Listbox' windows added.
+09/02/2023 22:17:09 (InfL1)	WindowFactory for 'WindowsLook/ListHeader' windows added.
+09/02/2023 22:17:09 (InfL1)	WindowFactory for 'WindowsLook/ListHeaderSegment' windows added.
+09/02/2023 22:17:09 (InfL1)	WindowFactory for 'WindowsLook/MultiColumnList' windows added.
+09/02/2023 22:17:09 (InfL1)	WindowFactory for 'WindowsLook/MultiLineEditbox' windows added.
+09/02/2023 22:17:09 (InfL1)	WindowFactory for 'WindowsLook/ProgressBar' windows added.
+09/02/2023 22:17:09 (InfL1)	WindowFactory for 'WindowsLook/RadioButton' windows added.
+09/02/2023 22:17:09 (InfL1)	WindowFactory for 'WindowsLook/Slider' windows added.
+09/02/2023 22:17:09 (InfL1)	WindowFactory for 'WindowsLook/SliderThumb' windows added.
+09/02/2023 22:17:09 (InfL1)	WindowFactory for 'WindowsLook/StaticImage' windows added.
+09/02/2023 22:17:09 (InfL1)	WindowFactory for 'WindowsLook/StaticText' windows added.
+09/02/2023 22:17:09 (InfL1)	WindowFactory for 'WindowsLook/TabButton' windows added.
+09/02/2023 22:17:09 (InfL1)	WindowFactory for 'WindowsLook/TabControl' windows added.
+09/02/2023 22:17:09 (InfL1)	WindowFactory for 'WindowsLook/TabPane' windows added.
+09/02/2023 22:17:09 (InfL1)	WindowFactory for 'WindowsLook/Titlebar' windows added.
+09/02/2023 22:17:09 (InfL1)	WindowFactory for 'WindowsLook/VerticalScrollbar' windows added.
+09/02/2023 22:17:09 (InfL1)	WindowFactory for 'WindowsLook/VerticalScrollbarThumb' windows added.
+09/02/2023 22:17:09 (InfL2)	---- Resource loading for GUI scheme 'WindowsLook' completed ----
+09/02/2023 22:17:09 (InfL1)	Attempting to load Scheme from file '../../Media/GUI/schemes/TaharezLookSkin.scheme'.
+09/02/2023 22:17:09 (InfL2)	Started creation of Scheme 'TaharezLookSkin' via XML file.
+09/02/2023 22:17:09 (InfL2)	Finished creation of Scheme 'TaharezLookSkin' via XML file.
+09/02/2023 22:17:09 (InfL2)	Loaded GUI scheme 'TaharezLookSkin' from data in file '../../Media/GUI/schemes/TaharezLookSkin.scheme'.
+09/02/2023 22:17:09 (InfL2)	---- Begining resource loading for GUI scheme 'TaharezLookSkin' ----
+09/02/2023 22:17:09 (InfL1)	Attempting to create an Imageset from the information specified in file '../../Media/GUI/imagesets/TaharezLook.imageset'.
+09/02/2023 22:17:10 (InfL2)	Started creation of Imageset 'TaharezLook' via XML file.
+09/02/2023 22:17:10 (InfL2)	Finished creation of Imageset 'TaharezLook' via XML file.
+09/02/2023 22:17:10 (InfL1)	Attempting to create Font from the information specified in file '../../Media/GUI/fonts/bluehighway-12.font'.
+09/02/2023 22:17:10 (InfL2)	Started creation of Font 'BlueHighway-12' via XML file.
+09/02/2023 22:17:10 (InfL1)	Attempting to create Imageset 'BlueHighway-12_auto_glyph_images' with texture only.
+09/02/2023 22:17:10 (InfL2)	Font 'BlueHighway-12' now has the following glyphs defined: ' !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~'.
+09/02/2023 22:17:10 (InfL2)	Finished creation of Font 'BlueHighway-12' via XML file.
+09/02/2023 22:17:11 (InfL1)	===== Falagard 'root' element: look and feel parsing begins =====
+09/02/2023 22:17:11 (InfL2)	---> Start of definition for widget look 'TaharezLook/Button'.
+09/02/2023 22:17:11 (InfL2)	---< End of definition for widget look 'TaharezLook/Button'.
+09/02/2023 22:17:11 (InfL2)	---> Start of definition for widget look 'TaharezLook/RadioButton'.
+09/02/2023 22:17:11 (InfL2)	---< End of definition for widget look 'TaharezLook/RadioButton'.
+09/02/2023 22:17:11 (InfL2)	---> Start of definition for widget look 'TaharezLook/Checkbox'.
+09/02/2023 22:17:11 (InfL2)	---< End of definition for widget look 'TaharezLook/Checkbox'.
+09/02/2023 22:17:11 (InfL2)	---> Start of definition for widget look 'TaharezLook/Editbox'.
+09/02/2023 22:17:11 (InfL2)	---< End of definition for widget look 'TaharezLook/Editbox'.
+09/02/2023 22:17:11 (InfL2)	---> Start of definition for widget look 'TaharezLook/Titlebar'.
+09/02/2023 22:17:11 (InfL2)	---< End of definition for widget look 'TaharezLook/Titlebar'.
+09/02/2023 22:17:11 (InfL2)	---> Start of definition for widget look 'TaharezLook/FrameWindow'.
+09/02/2023 22:17:11 (InfL2)	---< End of definition for widget look 'TaharezLook/FrameWindow'.
+09/02/2023 22:17:11 (InfL2)	---> Start of definition for widget look 'TaharezLook/ProgressBar'.
+09/02/2023 22:17:11 (InfL2)	---< End of definition for widget look 'TaharezLook/ProgressBar'.
+09/02/2023 22:17:11 (InfL2)	---> Start of definition for widget look 'TaharezLook/AltProgressBar'.
+09/02/2023 22:17:11 (InfL2)	---< End of definition for widget look 'TaharezLook/AltProgressBar'.
+09/02/2023 22:17:11 (InfL2)	---> Start of definition for widget look 'TaharezLook/VUMeter'.
+09/02/2023 22:17:11 (InfL2)	---< End of definition for widget look 'TaharezLook/VUMeter'.
+09/02/2023 22:17:11 (InfL2)	---> Start of definition for widget look 'TaharezLook/SliderThumb'.
+09/02/2023 22:17:11 (InfL2)	---< End of definition for widget look 'TaharezLook/SliderThumb'.
+09/02/2023 22:17:11 (InfL2)	---> Start of definition for widget look 'TaharezLook/Slider'.
+09/02/2023 22:17:11 (InfL2)	---< End of definition for widget look 'TaharezLook/Slider'.
+09/02/2023 22:17:11 (InfL2)	---> Start of definition for widget look 'TaharezLook/HorizontalScrollbarThumb'.
+09/02/2023 22:17:11 (InfL2)	---< End of definition for widget look 'TaharezLook/HorizontalScrollbarThumb'.
+09/02/2023 22:17:11 (InfL2)	---> Start of definition for widget look 'TaharezLook/HorizontalScrollbar'.
+09/02/2023 22:17:11 (InfL2)	---< End of definition for widget look 'TaharezLook/HorizontalScrollbar'.
+09/02/2023 22:17:11 (InfL2)	---> Start of definition for widget look 'TaharezLook/VerticalScrollbarThumb'.
+09/02/2023 22:17:11 (InfL2)	---< End of definition for widget look 'TaharezLook/VerticalScrollbarThumb'.
+09/02/2023 22:17:11 (InfL2)	---> Start of definition for widget look 'TaharezLook/VerticalScrollbar'.
+09/02/2023 22:17:11 (InfL2)	---< End of definition for widget look 'TaharezLook/VerticalScrollbar'.
+09/02/2023 22:17:11 (InfL2)	---> Start of definition for widget look 'TaharezLook/Listbox'.
+09/02/2023 22:17:11 (InfL2)	---< End of definition for widget look 'TaharezLook/Listbox'.
+09/02/2023 22:17:11 (InfL2)	---> Start of definition for widget look 'TaharezLook/ComboDropList'.
+09/02/2023 22:17:11 (InfL2)	---< End of definition for widget look 'TaharezLook/ComboDropList'.
+09/02/2023 22:17:11 (InfL2)	---> Start of definition for widget look 'TaharezLook/ComboEditbox'.
+09/02/2023 22:17:11 (InfL2)	---< End of definition for widget look 'TaharezLook/ComboEditbox'.
+09/02/2023 22:17:11 (InfL2)	---> Start of definition for widget look 'TaharezLook/Combobox'.
+09/02/2023 22:17:11 (InfL2)	---< End of definition for widget look 'TaharezLook/Combobox'.
+09/02/2023 22:17:11 (InfL2)	---> Start of definition for widget look 'TaharezLook/Spinner'.
+09/02/2023 22:17:11 (InfL2)	---< End of definition for widget look 'TaharezLook/Spinner'.
+09/02/2023 22:17:11 (InfL2)	---> Start of definition for widget look 'TaharezLook/StaticShared'.
+09/02/2023 22:17:11 (InfL2)	---< End of definition for widget look 'TaharezLook/StaticShared'.
+09/02/2023 22:17:11 (InfL2)	---> Start of definition for widget look 'TaharezLook/StaticImage'.
+09/02/2023 22:17:11 (InfL2)	---< End of definition for widget look 'TaharezLook/StaticImage'.
+09/02/2023 22:17:11 (InfL2)	---> Start of definition for widget look 'TaharezLook/StaticText'.
+09/02/2023 22:17:12 (InfL2)	---< End of definition for widget look 'TaharezLook/StaticText'.
+09/02/2023 22:17:12 (InfL2)	---> Start of definition for widget look 'TaharezLook/ListHeaderSegment'.
+09/02/2023 22:17:12 (InfL2)	---< End of definition for widget look 'TaharezLook/ListHeaderSegment'.
+09/02/2023 22:17:12 (InfL2)	---> Start of definition for widget look 'TaharezLook/ListHeader'.
+09/02/2023 22:17:12 (InfL2)	---< End of definition for widget look 'TaharezLook/ListHeader'.
+09/02/2023 22:17:12 (InfL2)	---> Start of definition for widget look 'TaharezLook/MultiColumnList'.
+09/02/2023 22:17:12 (InfL2)	---< End of definition for widget look 'TaharezLook/MultiColumnList'.
+09/02/2023 22:17:12 (InfL2)	---> Start of definition for widget look 'TaharezLook/MultiLineEditbox'.
+09/02/2023 22:17:12 (InfL2)	---< End of definition for widget look 'TaharezLook/MultiLineEditbox'.
+09/02/2023 22:17:12 (InfL2)	---> Start of definition for widget look 'TaharezLook/Tooltip'.
+09/02/2023 22:17:12 (InfL2)	---< End of definition for widget look 'TaharezLook/Tooltip'.
+09/02/2023 22:17:12 (InfL2)	---> Start of definition for widget look 'TaharezLook/ScrollablePane'.
+09/02/2023 22:17:12 (InfL2)	---< End of definition for widget look 'TaharezLook/ScrollablePane'.
+09/02/2023 22:17:12 (InfL2)	---> Start of definition for widget look 'TaharezLook/TabButton'.
+09/02/2023 22:17:12 (InfL2)	---< End of definition for widget look 'TaharezLook/TabButton'.
+09/02/2023 22:17:12 (InfL2)	---> Start of definition for widget look 'TaharezLook/TabPane'.
+09/02/2023 22:17:12 (InfL2)	---< End of definition for widget look 'TaharezLook/TabPane'.
+09/02/2023 22:17:12 (InfL2)	---> Start of definition for widget look 'TaharezLook/TabControl'.
+09/02/2023 22:17:12 (InfL2)	---< End of definition for widget look 'TaharezLook/TabControl'.
+09/02/2023 22:17:12 (InfL2)	---> Start of definition for widget look 'TaharezLook/MenuItem'.
+09/02/2023 22:17:12 (InfL2)	---< End of definition for widget look 'TaharezLook/MenuItem'.
+09/02/2023 22:17:12 (InfL2)	---> Start of definition for widget look 'TaharezLook/PopupMenu'.
+09/02/2023 22:17:12 (InfL2)	---< End of definition for widget look 'TaharezLook/PopupMenu'.
+09/02/2023 22:17:12 (InfL2)	---> Start of definition for widget look 'TaharezLook/Menubar'.
+09/02/2023 22:17:12 (InfL2)	---< End of definition for widget look 'TaharezLook/Menubar'.
+09/02/2023 22:17:12 (InfL2)	---> Start of definition for widget look 'TaharezLook/LargeVerticalScrollbarThumb'.
+09/02/2023 22:17:12 (InfL2)	---< End of definition for widget look 'TaharezLook/LargeVerticalScrollbarThumb'.
+09/02/2023 22:17:12 (InfL2)	---> Start of definition for widget look 'TaharezLook/LargeVerticalScrollbar'.
+09/02/2023 22:17:12 (InfL2)	---< End of definition for widget look 'TaharezLook/LargeVerticalScrollbar'.
+09/02/2023 22:17:12 (InfL1)	===== Look and feel parsing completed =====
+09/02/2023 22:17:13 (InfL1)	No window factories specified for module 'CEGUIFalagardBase' - adding all available factories...
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/Button' windows added.
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/Checkbox' windows added.
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/ComboDropList' windows added.
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/Combobox' windows added.
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/Editbox' windows added.
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/FrameWindow' windows added.
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/ListHeader' windows added.
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/ListHeaderSegment' windows added.
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/Listbox' windows added.
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/Menubar' windows added.
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/MenuItem' windows added.
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/MultiColumnList' windows added.
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/MultiLineEditbox' windows added.
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/PopupMenu' windows added.
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/ProgressBar' windows added.
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/RadioButton' windows added.
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/ScrollablePane' windows added.
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/Scrollbar' windows added.
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/Slider' windows added.
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/Spinner' windows added.
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/StaticImage' windows added.
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/StaticText' windows added.
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/SystemButton' windows added.
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/TabButton' windows added.
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/TabControl' windows added.
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/TabPane' windows added.
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/Thumb' windows added.
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/Titlebar' windows added.
+09/02/2023 22:17:13 (InfL1)	WindowFactory for 'Falagard/Tooltip' windows added.
+09/02/2023 22:17:13 (InfL1)	Creating falagard mapping for type 'TaharezLook/AlternateProgressBar' using base type 'Falagard/ProgressBar' and LookN'Feel 'TaharezLook/AltProgressBar'.
+09/02/2023 22:17:13 (InfL1)	Creating falagard mapping for type 'TaharezLook/Button' using base type 'Falagard/Button' and LookN'Feel 'TaharezLook/Button'.
+09/02/2023 22:17:13 (InfL1)	Creating falagard mapping for type 'TaharezLook/Checkbox' using base type 'Falagard/Checkbox' and LookN'Feel 'TaharezLook/Checkbox'.
+09/02/2023 22:17:13 (InfL1)	Creating falagard mapping for type 'TaharezLook/ComboDropList' using base type 'Falagard/ComboDropList' and LookN'Feel 'TaharezLook/ComboDropList'.
+09/02/2023 22:17:13 (InfL1)	Creating falagard mapping for type 'TaharezLook/ComboEditbox' using base type 'Falagard/Editbox' and LookN'Feel 'TaharezLook/ComboEditbox'.
+09/02/2023 22:17:13 (InfL1)	Creating falagard mapping for type 'TaharezLook/Combobox' using base type 'Falagard/Combobox' and LookN'Feel 'TaharezLook/Combobox'.
+09/02/2023 22:17:13 (InfL1)	Creating falagard mapping for type 'TaharezLook/Editbox' using base type 'Falagard/Editbox' and LookN'Feel 'TaharezLook/Editbox'.
+09/02/2023 22:17:13 (InfL1)	Creating falagard mapping for type 'TaharezLook/FrameWindow' using base type 'Falagard/FrameWindow' and LookN'Feel 'TaharezLook/FrameWindow'.
+09/02/2023 22:17:13 (InfL1)	Creating falagard mapping for type 'TaharezLook/HorizontalScrollbar' using base type 'Falagard/Scrollbar' and LookN'Feel 'TaharezLook/HorizontalScrollbar'.
+09/02/2023 22:17:13 (InfL1)	Creating falagard mapping for type 'TaharezLook/HorizontalScrollbarThumb' using base type 'Falagard/Thumb' and LookN'Feel 'TaharezLook/HorizontalScrollbarThumb'.
+09/02/2023 22:17:13 (InfL1)	Creating falagard mapping for type 'TaharezLook/LargeVerticalScrollbar' using base type 'Falagard/Scrollbar' and LookN'Feel 'TaharezLook/LargeVerticalScrollbar'.
+09/02/2023 22:17:13 (InfL1)	Creating falagard mapping for type 'TaharezLook/LargeVerticalScrollbarThumb' using base type 'Falagard/Thumb' and LookN'Feel 'TaharezLook/LargeVerticalScrollbarThumb'.
+09/02/2023 22:17:13 (InfL1)	Creating falagard mapping for type 'TaharezLook/ListHeader' using base type 'Falagard/ListHeader' and LookN'Feel 'TaharezLook/ListHeader'.
+09/02/2023 22:17:13 (InfL1)	Creating falagard mapping for type 'TaharezLook/ListHeaderSegment' using base type 'Falagard/ListHeaderSegment' and LookN'Feel 'TaharezLook/ListHeaderSegment'.
+09/02/2023 22:17:13 (InfL1)	Creating falagard mapping for type 'TaharezLook/Listbox' using base type 'Falagard/Listbox' and LookN'Feel 'TaharezLook/Listbox'.
+09/02/2023 22:17:13 (InfL1)	Creating falagard mapping for type 'TaharezLook/Menubar' using base type 'Falagard/Menubar' and LookN'Feel 'TaharezLook/Menubar'.
+09/02/2023 22:17:13 (InfL1)	Creating falagard mapping for type 'TaharezLook/MenuItem' using base type 'Falagard/MenuItem' and LookN'Feel 'TaharezLook/MenuItem'.
+09/02/2023 22:17:13 (InfL1)	Creating falagard mapping for type 'TaharezLook/MultiColumnList' using base type 'Falagard/MultiColumnList' and LookN'Feel 'TaharezLook/MultiColumnList'.
+09/02/2023 22:17:13 (InfL1)	Creating falagard mapping for type 'TaharezLook/MultiLineEditbox' using base type 'Falagard/MultiLineEditbox' and LookN'Feel 'TaharezLook/MultiLineEditbox'.
+09/02/2023 22:17:13 (InfL1)	Creating falagard mapping for type 'TaharezLook/PopupMenu' using base type 'Falagard/PopupMenu' and LookN'Feel 'TaharezLook/PopupMenu'.
+09/02/2023 22:17:13 (InfL1)	Creating falagard mapping for type 'TaharezLook/ProgressBar' using base type 'Falagard/ProgressBar' and LookN'Feel 'TaharezLook/ProgressBar'.
+09/02/2023 22:17:14 (InfL1)	Creating falagard mapping for type 'TaharezLook/RadioButton' using base type 'Falagard/RadioButton' and LookN'Feel 'TaharezLook/RadioButton'.
+09/02/2023 22:17:14 (InfL1)	Creating falagard mapping for type 'TaharezLook/ScrollablePane' using base type 'Falagard/ScrollablePane' and LookN'Feel 'TaharezLook/ScrollablePane'.
+09/02/2023 22:17:14 (InfL1)	Creating falagard mapping for type 'TaharezLook/Slider' using base type 'Falagard/Slider' and LookN'Feel 'TaharezLook/Slider'.
+09/02/2023 22:17:14 (InfL1)	Creating falagard mapping for type 'TaharezLook/SliderThumb' using base type 'Falagard/Thumb' and LookN'Feel 'TaharezLook/SliderThumb'.
+09/02/2023 22:17:14 (InfL1)	Creating falagard mapping for type 'TaharezLook/Spinner' using base type 'Falagard/Spinner' and LookN'Feel 'TaharezLook/Spinner'.
+09/02/2023 22:17:14 (InfL1)	Creating falagard mapping for type 'TaharezLook/StaticImage' using base type 'Falagard/StaticImage' and LookN'Feel 'TaharezLook/StaticImage'.
+09/02/2023 22:17:14 (InfL1)	Creating falagard mapping for type 'TaharezLook/StaticText' using base type 'Falagard/StaticText' and LookN'Feel 'TaharezLook/StaticText'.
+09/02/2023 22:17:14 (InfL1)	Creating falagard mapping for type 'TaharezLook/SystemButton' using base type 'Falagard/SystemButton' and LookN'Feel 'TaharezLook/Button'.
+09/02/2023 22:17:14 (InfL1)	Creating falagard mapping for type 'TaharezLook/TabButton' using base type 'Falagard/TabButton' and LookN'Feel 'TaharezLook/TabButton'.
+09/02/2023 22:17:14 (InfL1)	Creating falagard mapping for type 'TaharezLook/TabControl' using base type 'Falagard/TabControl' and LookN'Feel 'TaharezLook/TabControl'.
+09/02/2023 22:17:14 (InfL1)	Creating falagard mapping for type 'TaharezLook/TabPane' using base type 'Falagard/TabPane' and LookN'Feel 'TaharezLook/TabPane'.
+09/02/2023 22:17:14 (InfL1)	Creating falagard mapping for type 'TaharezLook/Titlebar' using base type 'Falagard/Titlebar' and LookN'Feel 'TaharezLook/Titlebar'.
+09/02/2023 22:17:14 (InfL1)	Creating falagard mapping for type 'TaharezLook/Tooltip' using base type 'Falagard/Tooltip' and LookN'Feel 'TaharezLook/Tooltip'.
+09/02/2023 22:17:14 (InfL1)	Creating falagard mapping for type 'TaharezLook/VerticalScrollbar' using base type 'Falagard/Scrollbar' and LookN'Feel 'TaharezLook/VerticalScrollbar'.
+09/02/2023 22:17:14 (InfL1)	Creating falagard mapping for type 'TaharezLook/VerticalScrollbarThumb' using base type 'Falagard/Thumb' and LookN'Feel 'TaharezLook/VerticalScrollbarThumb'.
+09/02/2023 22:17:14 (InfL1)	Creating falagard mapping for type 'TaharezLook/VUMeter' using base type 'Falagard/ProgressBar' and LookN'Feel 'TaharezLook/VUMeter'.
+09/02/2023 22:17:14 (InfL2)	---- Resource loading for GUI scheme 'TaharezLookSkin' completed ----
+09/02/2023 22:17:14 (InfL2)	Window 'root' of type 'DefaultWindow' has been created.
+09/02/2023 22:17:14 (InfL2)	Window 'DemoCombo' of type 'TaharezLook/Combobox' has been created.
+09/02/2023 22:17:14 (InfL2)	Assigning LookNFeel 'TaharezLook/Combobox' to window 'DemoCombo'.
+09/02/2023 22:17:14 (InfL2)	Window 'DemoCombo__auto_editbox__' of type 'TaharezLook/ComboEditbox' has been created.
+09/02/2023 22:17:14 (InfL2)	Assigning LookNFeel 'TaharezLook/ComboEditbox' to window 'DemoCombo__auto_editbox__'.
+09/02/2023 22:17:14 (InfL2)	Window 'DemoCombo__auto_droplist__' of type 'TaharezLook/ComboDropList' has been created.
+09/02/2023 22:17:14 (InfL2)	Assigning LookNFeel 'TaharezLook/ComboDropList' to window 'DemoCombo__auto_droplist__'.
+09/02/2023 22:17:14 (InfL2)	Window 'DemoCombo__auto_droplist____auto_hscrollbar__' of type 'TaharezLook/HorizontalScrollbar' has been created.
+09/02/2023 22:17:14 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbar' to window 'DemoCombo__auto_droplist____auto_hscrollbar__'.
+09/02/2023 22:17:14 (InfL2)	Window 'DemoCombo__auto_droplist____auto_hscrollbar____auto_incbtn__' of type 'TaharezLook/Button' has been created.
+09/02/2023 22:17:14 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'DemoCombo__auto_droplist____auto_hscrollbar____auto_incbtn__'.
+09/02/2023 22:17:14 (InfL2)	Window 'DemoCombo__auto_droplist____auto_hscrollbar____auto_decbtn__' of type 'TaharezLook/Button' has been created.
+09/02/2023 22:17:14 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'DemoCombo__auto_droplist____auto_hscrollbar____auto_decbtn__'.
+09/02/2023 22:17:14 (InfL2)	Window 'DemoCombo__auto_droplist____auto_hscrollbar____auto_thumb__' of type 'TaharezLook/HorizontalScrollbarThumb' has been created.
+09/02/2023 22:17:14 (InfL2)	Assigning LookNFeel 'TaharezLook/HorizontalScrollbarThumb' to window 'DemoCombo__auto_droplist____auto_hscrollbar____auto_thumb__'.
+09/02/2023 22:17:14 (InfL2)	Window 'DemoCombo__auto_droplist____auto_vscrollbar__' of type 'TaharezLook/VerticalScrollbar' has been created.
+09/02/2023 22:17:14 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbar' to window 'DemoCombo__auto_droplist____auto_vscrollbar__'.
+09/02/2023 22:17:14 (InfL2)	Window 'DemoCombo__auto_droplist____auto_vscrollbar____auto_incbtn__' of type 'TaharezLook/Button' has been created.
+09/02/2023 22:17:14 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'DemoCombo__auto_droplist____auto_vscrollbar____auto_incbtn__'.
+09/02/2023 22:17:14 (InfL2)	Window 'DemoCombo__auto_droplist____auto_vscrollbar____auto_decbtn__' of type 'TaharezLook/Button' has been created.
+09/02/2023 22:17:14 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'DemoCombo__auto_droplist____auto_vscrollbar____auto_decbtn__'.
+09/02/2023 22:17:14 (InfL2)	Window 'DemoCombo__auto_droplist____auto_vscrollbar____auto_thumb__' of type 'TaharezLook/VerticalScrollbarThumb' has been created.
+09/02/2023 22:17:14 (InfL2)	Assigning LookNFeel 'TaharezLook/VerticalScrollbarThumb' to window 'DemoCombo__auto_droplist____auto_vscrollbar____auto_thumb__'.
+09/02/2023 22:17:14 (InfL2)	Window 'DemoCombo__auto_button__' of type 'TaharezLook/Button' has been created.
+09/02/2023 22:17:14 (InfL2)	Assigning LookNFeel 'TaharezLook/Button' to window 'DemoCombo__auto_button__'.
+09/02/2023 22:18:09 (InfL1)	---- Begining CEGUI System destruction ----
+09/02/2023 22:18:09 (InfL2)	Window 'DemoCombo__auto_editbox__' has been added to dead pool.
+09/02/2023 22:18:09 (InfL2)	Window 'DemoCombo__auto_droplist____auto_vscrollbar____auto_thumb__' has been added to dead pool.
+09/02/2023 22:18:09 (InfL2)	Window 'DemoCombo__auto_droplist____auto_vscrollbar____auto_incbtn__' has been added to dead pool.
+09/02/2023 22:18:09 (InfL2)	Window 'DemoCombo__auto_droplist____auto_vscrollbar____auto_decbtn__' has been added to dead pool.
+09/02/2023 22:18:09 (InfL2)	Window 'DemoCombo__auto_droplist____auto_vscrollbar__' has been added to dead pool.
+09/02/2023 22:18:09 (InfL2)	Window 'DemoCombo__auto_droplist____auto_hscrollbar____auto_thumb__' has been added to dead pool.
+09/02/2023 22:18:09 (InfL2)	Window 'DemoCombo__auto_droplist____auto_hscrollbar____auto_incbtn__' has been added to dead pool.
+09/02/2023 22:18:09 (InfL2)	Window 'DemoCombo__auto_droplist____auto_hscrollbar____auto_decbtn__' has been added to dead pool.
+09/02/2023 22:18:09 (InfL2)	Window 'DemoCombo__auto_droplist____auto_hscrollbar__' has been added to dead pool.
+09/02/2023 22:18:09 (InfL2)	Window 'DemoCombo__auto_droplist__' has been added to dead pool.
+09/02/2023 22:18:09 (InfL2)	Window 'DemoCombo__auto_button__' has been added to dead pool.
+09/02/2023 22:18:09 (InfL2)	Window 'DemoCombo' has been added to dead pool.
+09/02/2023 22:18:09 (InfL2)	Window 'root' has been added to dead pool.
+09/02/2023 22:18:09 (InfL1)	---- Begining cleanup of GUI Scheme system ----
+09/02/2023 22:18:09 (InfL2)	---- Begining resource cleanup for GUI scheme 'TaharezLookSkin' ----
+09/02/2023 22:18:09 (InfL2)	Imageset 'BlueHighway-12_auto_glyph_images' has been destroyed.
+09/02/2023 22:18:09 (InfL1)	Font 'BlueHighway-12' has been destroyed.
+09/02/2023 22:18:09 (InfL2)	Imageset 'TaharezLook' has been destroyed.
+09/02/2023 22:18:09 (InfL2)	---- Resource cleanup for GUI scheme 'TaharezLookSkin' completed ----
+09/02/2023 22:18:09 (InfL2)	GUI scheme 'TaharezLookSkin' has been unloaded.
+09/02/2023 22:18:09 (InfL1)	Scheme 'TaharezLookSkin' has been unloaded.
+09/02/2023 22:18:09 (InfL2)	---- Begining resource cleanup for GUI scheme 'WindowsLook' ----
+09/02/2023 22:18:09 (InfL2)	Imageset 'Commonwealth-10_auto_glyph_images' has been destroyed.
+09/02/2023 22:18:09 (InfL1)	Font 'Commonwealth-10' has been destroyed.
+09/02/2023 22:18:09 (InfL2)	Imageset 'Impact_auto_glyph_images' has been destroyed.
+09/02/2023 22:18:09 (InfL1)	Font 'Impact' has been destroyed.
+09/02/2023 22:18:09 (InfL2)	Imageset 'WindowsLook' has been destroyed.
+09/02/2023 22:18:09 (InfL1)	WindowFactory for 'WindowsLook/Button' windows removed.
+09/02/2023 22:18:09 (InfL1)	WindowFactory for 'WindowsLook/Checkbox' windows removed.
+09/02/2023 22:18:09 (InfL1)	WindowFactory for 'WindowsLook/CloseButton' windows removed.
+09/02/2023 22:18:09 (InfL1)	WindowFactory for 'WindowsLook/Combobox' windows removed.
+09/02/2023 22:18:09 (InfL1)	WindowFactory for 'WindowsLook/ComboDropList' windows removed.
+09/02/2023 22:18:09 (InfL1)	WindowFactory for 'WindowsLook/Editbox' windows removed.
+09/02/2023 22:18:09 (InfL1)	WindowFactory for 'WindowsLook/FrameWindow' windows removed.
+09/02/2023 22:18:09 (InfL1)	WindowFactory for 'WindowsLook/HorizontalScrollbar' windows removed.
+09/02/2023 22:18:09 (InfL1)	WindowFactory for 'WindowsLook/HorizontalScrollbarThumb' windows removed.
+09/02/2023 22:18:09 (InfL1)	WindowFactory for 'WindowsLook/Listbox' windows removed.
+09/02/2023 22:18:09 (InfL1)	WindowFactory for 'WindowsLook/ListHeader' windows removed.
+09/02/2023 22:18:09 (InfL1)	WindowFactory for 'WindowsLook/ListHeaderSegment' windows removed.
+09/02/2023 22:18:09 (InfL1)	WindowFactory for 'WindowsLook/MultiColumnList' windows removed.
+09/02/2023 22:18:09 (InfL1)	WindowFactory for 'WindowsLook/MultiLineEditbox' windows removed.
+09/02/2023 22:18:09 (InfL1)	WindowFactory for 'WindowsLook/ProgressBar' windows removed.
+09/02/2023 22:18:09 (InfL1)	WindowFactory for 'WindowsLook/RadioButton' windows removed.
+09/02/2023 22:18:09 (InfL1)	WindowFactory for 'WindowsLook/Slider' windows removed.
+09/02/2023 22:18:09 (InfL1)	WindowFactory for 'WindowsLook/SliderThumb' windows removed.
+09/02/2023 22:18:10 (InfL1)	WindowFactory for 'WindowsLook/StaticImage' windows removed.
+09/02/2023 22:18:10 (InfL1)	WindowFactory for 'WindowsLook/StaticText' windows removed.
+09/02/2023 22:18:10 (InfL1)	WindowFactory for 'WindowsLook/TabButton' windows removed.
+09/02/2023 22:18:10 (InfL1)	WindowFactory for 'WindowsLook/TabControl' windows removed.
+09/02/2023 22:18:10 (InfL1)	WindowFactory for 'WindowsLook/TabPane' windows removed.
+09/02/2023 22:18:10 (InfL1)	WindowFactory for 'WindowsLook/Titlebar' windows removed.
+09/02/2023 22:18:10 (InfL1)	WindowFactory for 'WindowsLook/VerticalScrollbar' windows removed.
+09/02/2023 22:18:10 (InfL1)	WindowFactory for 'WindowsLook/VerticalScrollbarThumb' windows removed.
+09/02/2023 22:18:10 (InfL2)	---- Resource cleanup for GUI scheme 'WindowsLook' completed ----
+09/02/2023 22:18:10 (InfL2)	GUI scheme 'WindowsLook' has been unloaded.
+09/02/2023 22:18:10 (InfL1)	Scheme 'WindowsLook' has been unloaded.
+09/02/2023 22:18:10 (InfL1)	CEGUI::SchemeManager singleton destroyed.
+09/02/2023 22:18:10 (InfL1)	CEGUI::WindowManager singleton destroyed
+09/02/2023 22:18:10 (InfL1)	CEGUI::WindowFactoryManager singleton destroyed
+09/02/2023 22:18:10 (InfL1)	CEGUI::WidgetLookManager singleton destroyed.
+09/02/2023 22:18:10 (InfL1)	---- Begining cleanup of Font system ----
+09/02/2023 22:18:10 (InfL1)	CEGUI::FontManager singleton destroyed.
+09/02/2023 22:18:10 (InfL1)	CEGUI::MouseCursor singleton destroyed.
+09/02/2023 22:18:10 (InfL1)	---- Begining cleanup of Imageset system ----
+09/02/2023 22:18:10 (InfL1)	CEGUI::ImagesetManager singleton destroyed
+09/02/2023 22:18:10 (InfL1)	CEGUI::GlobalEventSet singleton destroyed.
+09/02/2023 22:18:10 (InfL1)	CEGUI::System singleton destroyed.
+09/02/2023 22:18:10 (InfL1)	---- CEGUI System destruction completed ----
+09/02/2023 22:18:10 (InfL1)	CEGUI::Logger singleton destroyed.
